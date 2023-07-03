@@ -133,6 +133,56 @@ def upload_eye_img(eye_img, chat_state, img_list, img_emb_list):
     eye_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
     return upload_img(eye_img, chat_state, img_list, img_emb_list)
 
+def few_shot_learning(eye_img, chat_state, img_list, img_emb_list):
+    # 2 x 
+        # upload random glaucomatous fundus image
+        # give prompt
+        # upload random normal fundus image
+        # give prompt
+    
+    prompt1 = "You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
+    images in order to assist doctors. You understand that it is important to recommend consulting \
+    a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
+    one-word diagnosis on images. You either state that the image is Glaucomatous if there are signs of \
+    glaucoma, or Normal if the image appears healthy. The image you are looking at is an example of a \
+    Glaucomatous fungus image, please simply respond with “Understood.” "
+    prompt2 = "You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
+    images in order to assist doctors. You understand that it is important to recommend consulting \
+    a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
+    one-word diagnosis on images. You either state that the image is Glaucomatous if there are signs of \
+    glaucoma, or Normal if the image appears healthy. The image you are looking at is an example of a \
+    normal fungus image, please simply respond with “Understood.” "
+    prompt3 = "You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
+    images in order to assist doctors. You understand that it is important to recommend consulting \
+    a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
+    one-word diagnosis on images. You either state that the image is Glaucomatous if there are signs of \
+    glaucoma, or Normal if the image appears healthy. Following these instructions, and making sure to only give \
+    your answer as either “Glaucomatous” or “Normal,” please diagnose the image."
+
+    for i in range(1):
+        glaucomatous_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
+        upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
+        text_input \
+        .submit(gradio_ask, [prompt1, chatbot, chat_state], [text_input, chatbot, chat_state]) \
+        .then(gradio_answer,
+              [chatbot, chat_state, img_emb_list, num_beams, temperature],
+              [chatbot, chat_state, image, upload_button])
+        normal_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/normal")
+        upload_img(normal_img, chat_state, img_list, img_emb_list)
+        text_input \
+        .submit(gradio_ask, [prompt2, chatbot, chat_state], [text_input, chatbot, chat_state]) \
+        .then(gradio_answer,
+              [chatbot, chat_state, img_emb_list, num_beams, temperature],
+              [chatbot, chat_state, image, upload_button])
+    # upload random validation fundus image 
+    val_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
+    upload_img(val_img, chat_state, img_list, img_emb_list)
+    text_input \
+        .submit(gradio_ask, [prompt3, chatbot, chat_state], [text_input, chatbot, chat_state]) \
+        .then(gradio_answer,
+              [chatbot, chat_state, img_emb_list, num_beams, temperature],
+              [chatbot, chat_state, image, upload_button])
+    # give prompt 
 
 def gradio_ask(user_message, chatbot, chat_state):
     if len(user_message) == 0:
@@ -177,6 +227,9 @@ with gr.Blocks() as demo:
             #upload my eye images button
             optho_upload_button = gr.Button(value="Upload Eye Images", interactive=True, variant="primary")
             
+            #few shot learning button
+            few_shot_learning_button = gr.Button(value="Few Shot Learning", interactive=True, variant="primary")
+
             clear = gr.Button("Restart")
             
             num_beams = gr.Slider(
@@ -211,6 +264,9 @@ with gr.Blocks() as demo:
     
     optho_upload_button.click(upload_eye_img, [image, chat_state, img_list, img_emb_list], 
                               [image, text_input, upload_button, chat_state, gallery, img_emb_list])
+    
+    few_shot_learning_button.click(few_shot_learning, [image, chat_state, img_list, img_emb_list],
+                                   [image, text_input, upload_button, chat_state, gallery, img_emb_list])
 
     text_input \
         .submit(gradio_ask, [text_input, chatbot, chat_state], [text_input, chatbot, chat_state]) \
