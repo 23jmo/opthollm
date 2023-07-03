@@ -130,17 +130,8 @@ def upload_img(gr_img, chat_state, img_list, img_emb_list):
 
 def upload_eye_img(eye_img, chat_state, img_list, img_emb_list):
     # get one random image from the rimONE dataset
-    eye_img = pick_random_file("rimOne")
-    img_list.append(eye_img)
-    # upload that image to the chat 
-    chat.upload_img(eye_img, chat_state, img_emb_list)
-    # update image, text_input, upload_button, chat_state, gallery, img_emb_list
-    return gr.update(value=None, interactive=False), \
-        gr.update(interactive=True, placeholder='Type and press Enter'), \
-        gr.update(value="Uploaded the random eye image", interactive=False), \
-        chat_state, \
-        img_list, \
-        img_emb_list
+    eye_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
+    return upload_img(eye_img, chat_state, img_list, img_emb_list)
 
 
 def gradio_ask(user_message, chatbot, chat_state):
@@ -167,7 +158,7 @@ def gradio_answer(chatbot, chat_state, img_list, num_beams, temperature):
 
 
 title = """<h1 align="center">Img Test Demo of MiniGPT-4</h1>"""
-description = """<h3>This is the demo of MiniGPT-4. Upload your images and start chatting!</h3>"""
+description = """<h3>Testing Multiple Image Upload and Random Eye Image Selection</h3>"""
 article = """<p><a href='https://minigpt-4.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a></p><p><a href='https://github.com/Vision-CAIR/MiniGPT-4'><img src='https://img.shields.io/badge/Github-Code-blue'></a></p><p><a href='https://raw.githubusercontent.com/Vision-CAIR/MiniGPT-4/main/MiniGPT_4.pdf'><img src='https://img.shields.io/badge/Paper-PDF-red'></a></p>
 """
 
