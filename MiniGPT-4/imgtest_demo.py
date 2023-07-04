@@ -274,7 +274,7 @@ with gr.Blocks() as demo:
                               [image, text_input, upload_button, chat_state, gallery, img_emb_list])
     
     few_shot_learning_button.click(few_shot_learning, [chat_state, chatbot, img_list, img_emb_list],
-                                   [text_input, chatbot, chat_state, img_list, img_emb_list])\
+                                   [text_input, chatbot, chat_state, gallery, img_emb_list])\
                                    .then(gradio_answer,
               [chatbot, chat_state, img_emb_list, num_beams, temperature],
               [chatbot, chat_state, image, upload_button])
