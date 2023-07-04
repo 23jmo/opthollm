@@ -173,8 +173,15 @@ def few_shot_learning(chatbot, chat_state, img_list, num_beams, temperature, img
     upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
     chat.ask(prompt1, chat_state)
     chatbot = chatbot + [[prompt1, None]]
-    chatbot, chat_state, image, upload_button = gradio_answer(chatbot, chat_state, img_list, num_beams, temperature)
-
+    llm_message = chat.answer(
+            conv=chat_state,
+            img_list=img_list,
+            num_beams=num_beams,
+            temperature=temperature,
+            max_new_tokens=300,
+            max_length=2000
+        )[0]
+    chatbot[-1][1] = llm_message
 
     # glaucomatous_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
     # image, text_input, upload_button, chat_state, img_list, img_emb_list = upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
