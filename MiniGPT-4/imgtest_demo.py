@@ -143,7 +143,7 @@ def diagnose(user_message, chatbot, chat_state):
     return gradio_ask(user_message, chatbot, chat_state)
 
 
-def few_shot_learning():
+def few_shot_learning(chat_state, chatbot, img_list, img_emb_list, num_beams, temperature):
     
     
     prompt1 = "You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
@@ -273,7 +273,7 @@ with gr.Blocks() as demo:
     optho_upload_button.click(upload_eye_img, [image, chat_state, img_list, img_emb_list], 
                               [image, text_input, upload_button, chat_state, gallery, img_emb_list])
     
-    few_shot_learning_button.click(few_shot_learning, [chatbot, chat_state, img_list, num_beams, temperature, img_emb_list],
+    few_shot_learning_button.click(few_shot_learning, [chat_state, chatbot, img_list, img_emb_list, num_beams, temperature],
                                    [chatbot, chat_state, image, upload_button])
     
     diagnose_button.click(diagnose, [text_input, chatbot, chat_state], [text_input, chatbot, chat_state])\
