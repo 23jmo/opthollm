@@ -171,7 +171,7 @@ def few_shot_learning(chatbot, chat_state, img_list, num_beams, temperature, img
 
     
     glaucomatous_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
-    [image, text_input, upload_button, chat_state, gallery, img_emb_list] = upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
+    [image, text_input, upload_button, chat_state, img_list, img_emb_list] = upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
     [text_input, chatbot, chat_state] = gradio_ask(prompt1, chatbot, chat_state)
     [chatbot, chat_state, image, upload_button] = gradio_answer(chatbot, chat_state, img_list, num_beams, temperature)
 
@@ -277,7 +277,7 @@ with gr.Blocks() as demo:
                               [image, text_input, upload_button, chat_state, gallery, img_emb_list])
     
     few_shot_learning_button.click(few_shot_learning, [chatbot, chat_state, img_list, num_beams, temperature, img_emb_list],
-                                   [image, text_input, upload_button, chat_state, gallery, img_emb_list])
+                                   [chatbot, chat_state, image, upload_button])
     
     diagnose_button.click(diagnose, [text_input, chatbot, chat_state], [text_input, chatbot, chat_state])\
                    .then(gradio_answer,[chatbot, chat_state, img_emb_list, num_beams, temperature],
