@@ -139,7 +139,7 @@ def diagnose(user_message, chatbot, chat_state):
     a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
     one-word diagnosis on images. You either state that the image is Glaucomatous if there are signs of \
     glaucoma, or Normal if the image appears healthy. Following these instructions, and making sure to only give \
-    your answer as either “Glaucomatous” or “Normal,” please diagnose the image."
+    your answer as either “Glaucomatous” or “Normal,” please diagnose the image. A disclaimer is not needed. Please answer in one word."
     return gradio_ask(user_message, chatbot, chat_state)
 
 
@@ -233,7 +233,7 @@ with gr.Blocks() as demo:
             upload_button = gr.Button(value="Upload & Start Chat", interactive=True, variant="primary")
             
             #upload my eye images button
-            optho_upload_button = gr.Button(value="Upload Eye Images", interactive=True, variant="primary")
+            optho_upload_button = gr.Button(value="Upload Random Eye Image", interactive=True, variant="primary")
             
             #few shot learning button
             few_shot_learning_button = gr.Button(value="Few Shot Learning", interactive=True, variant="primary")
@@ -276,7 +276,7 @@ with gr.Blocks() as demo:
     optho_upload_button.click(upload_eye_img, [image, chat_state, img_list, img_emb_list], 
                               [image, text_input, upload_button, chat_state, gallery, img_emb_list])
     
-    few_shot_learning_button.click(few_shot_learning, [image, chat_state, img_list, img_emb_list],
+    few_shot_learning_button.click(few_shot_learning, [chatbot, chat_state, img_list, num_beams, temperature, img_emb_list],
                                    [image, text_input, upload_button, chat_state, gallery, img_emb_list])
     
     diagnose_button.click(diagnose, [text_input, chatbot, chat_state], [text_input, chatbot, chat_state])\
