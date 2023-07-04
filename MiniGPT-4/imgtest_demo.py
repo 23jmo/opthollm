@@ -143,12 +143,8 @@ def diagnose(user_message, chatbot, chat_state):
     return gradio_ask(user_message, chatbot, chat_state)
 
 
-def few_shot_learning(chatbot, chat_state, img_list, num_beams, temperature, img_emb_list):
-    # 2 x 
-        # upload random glaucomatous fundus image
-        # give prompt
-        # upload random normal fundus image
-        # give prompt
+def few_shot_learning():
+    
     
     prompt1 = "You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
     images in order to assist doctors. You understand that it is important to recommend consulting \
@@ -170,18 +166,9 @@ def few_shot_learning(chatbot, chat_state, img_list, num_beams, temperature, img
     your answer as either “Glaucomatous” or “Normal,” please diagnose the image."
 
     glaucomatous_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
-    upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
-    chat.ask(prompt1, chat_state)
-    chatbot = chatbot + [[prompt1, None]]
-    llm_message = chat.answer(
-            conv=chat_state,
-            img_list=img_list,
-            num_beams=num_beams,
-            temperature=temperature,
-            max_new_tokens=300,
-            max_length=2000
-        )[0]
-    chatbot[-1][1] = llm_message
+    image, text_input, upload_button, chat_state, img_list, img_emb_list = upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
+    text_input, chatbot, chat_state = gradio_ask(prompt1, chatbot, chat_state)
+    return gradio_answer(chatbot, chat_state, img_list, num_beams, temperature)
 
     # glaucomatous_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
     # image, text_input, upload_button, chat_state, img_list, img_emb_list = upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
@@ -200,10 +187,7 @@ def few_shot_learning(chatbot, chat_state, img_list, num_beams, temperature, img
     # [chatbot, chat_state, image, upload_button] = gradio_answer(chatbot, chat_state, img_list, num_beams, temperature)
     # # give prompt 
 
-    return chatbot, \
-           chat_state, \
-           image, \
-           upload_button
+    
 
 def gradio_ask(user_message, chatbot, chat_state):
     if len(user_message) == 0:
