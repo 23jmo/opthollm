@@ -169,11 +169,16 @@ def few_shot_learning(chatbot, chat_state, img_list, num_beams, temperature, img
     glaucoma, or Normal if the image appears healthy. Following these instructions, and making sure to only give \
     your answer as either “Glaucomatous” or “Normal,” please diagnose the image."
 
-    
+    # glaucomatous_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
+    # upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
+    # chat.ask(prompt1, chat_state)
+    # chatbot = chatbot + [[prompt1, None]]
+    # chatbot, chat_state, 
+
     glaucomatous_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
-    [image, text_input, upload_button, chat_state, img_list, img_emb_list] = upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
-    [text_input, chatbot, chat_state] = gradio_ask(prompt1, chatbot, chat_state)
-    [chatbot, chat_state, image, upload_button] = gradio_answer(chatbot, chat_state, img_list, num_beams, temperature)
+    image, text_input, upload_button, chat_state, img_list, img_emb_list = upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
+    text_input, chatbot, chat_state = gradio_ask(prompt1, chatbot, chat_state)
+    chatbot, chat_state, image, upload_button = gradio_answer(chatbot, chat_state, img_list, num_beams, temperature)
 
     # normal_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/normal")
     # upload_img(normal_img, chat_state, img_list, img_emb_list)
