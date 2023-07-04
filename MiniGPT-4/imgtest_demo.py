@@ -162,26 +162,14 @@ def few_shot_learning(eye_img, chat_state, img_list, img_emb_list):
     for i in range(1):
         glaucomatous_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
         upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
-        text_input \
-        .submit(gradio_ask, [prompt1, chatbot, chat_state], [text_input, chatbot, chat_state]) \
-        .then(gradio_answer,
-              [chatbot, chat_state, img_emb_list, num_beams, temperature],
-              [chatbot, chat_state, image, upload_button])
+        
         normal_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/normal")
         upload_img(normal_img, chat_state, img_list, img_emb_list)
-        text_input \
-        .submit(gradio_ask, [prompt2, chatbot, chat_state], [text_input, chatbot, chat_state]) \
-        .then(gradio_answer,
-              [chatbot, chat_state, img_emb_list, num_beams, temperature],
-              [chatbot, chat_state, image, upload_button])
+       
     # upload random validation fundus image 
     val_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
     upload_img(val_img, chat_state, img_list, img_emb_list)
-    text_input \
-        .submit(gradio_ask, [prompt3, chatbot, chat_state], [text_input, chatbot, chat_state]) \
-        .then(gradio_answer,
-              [chatbot, chat_state, img_emb_list, num_beams, temperature],
-              [chatbot, chat_state, image, upload_button])
+    
     # give prompt 
 
 def gradio_ask(user_message, chatbot, chat_state):
