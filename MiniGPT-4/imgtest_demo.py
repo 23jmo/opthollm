@@ -205,7 +205,7 @@ def few_shot_learning2(img_list, img_emb_list, chat_state, chatbot, num_beams, t
 
     #answer prompt
     llm_message = chat.answer(conv=chat_state,
-                              img_list=img_list,
+                              img_list=img_emb_list,
                               num_beams=num_beams,
                               temperature=temperature,
                               max_new_tokens=300,
