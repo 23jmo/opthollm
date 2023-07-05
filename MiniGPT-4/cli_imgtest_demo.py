@@ -19,6 +19,8 @@ from minigpt4.processors import *
 from minigpt4.runners import *
 from minigpt4.tasks import *
 
+import matplotlib as plt
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
@@ -69,6 +71,24 @@ vis_processor = registry.get_processor_class(vis_processor_cfg.name).from_config
 chat = Chat(model, vis_processor, device='cuda:{}'.format(args.gpu_id))
 print('Initialization Finished')
 
+
+def pick_random_file(directory):
+    # Get a list of all files in the directory
+    files = os.listdir(directory)
+    
+    # Filter out directories, if any
+    files = [file for file in files if os.path.isfile(os.path.join(directory, file))]
+    
+    if not files:
+        print("No files found in the directory.")
+        return None
+    
+    # Choose a random file from the list
+    random_file = random.choice(files)
+    
+    # Return the full path of the randomly chosen file
+    return os.path.join(directory, random_file)
+
 while True:
     if not args.english:
         image_path = input("请输入图像路径或URL（回车进入纯文本对话）： ")
@@ -79,17 +99,24 @@ while True:
         break
     if len(image_path) > 0:
         query = args.prompt_en if args.english else args.prompt_zh
-
-
+    if image_path == 'random':
+        image_path = pick_random_file('RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma')
+    
+    if isinstance(image_path, str):
+            plt.imshow(plt.imread(image_path))
+            
     while True:
-        if query == "clear":
+        if query == "new img":
             break
         if query == "stop":
             sys.exit(0)
         img_list = []
         chat_state = CONV_VISION.copy()
+        
+        
         chat.upload_img(image_path, chat_state, img_list)
         chat.ask(query, chat_state)
+        
         llm_message = chat.answer(
             conv=chat_state,
             img_list=img_list,

@@ -127,6 +127,8 @@ class Chat:
                           torch.tensor([2277, 29937]).to(self.device)]  # '###' can be encoded in two different ways.
         self.stopping_criteria = StoppingCriteriaList([StoppingCriteriaSub(stops=stop_words_ids)])
 
+    #TODO: allow multiple image embeddings and text in a row / in one prompt 
+
     def ask(self, text, conv):
         if len(conv.messages) > 0 and conv.messages[-1][0] == conv.roles[0] \
                 and conv.messages[-1][1][-6:] == '</Img>':  # last message is image.
@@ -168,6 +170,10 @@ class Chat:
         output_text = output_text.split('###')[0]  # remove the stop sign '###'
         output_text = output_text.split('Assistant:')[-1].strip()
         conv.messages[-1][1] = output_text
+
+        ###
+        print(conv)
+
         return output_text, output_token.cpu().numpy()
 
     def upload_img(self, image, conv, img_list):
