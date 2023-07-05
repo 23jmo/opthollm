@@ -19,7 +19,7 @@ from minigpt4.processors import *
 from minigpt4.runners import *
 from minigpt4.tasks import *
 
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 
 def parse_args():
@@ -89,11 +89,14 @@ def pick_random_file(directory):
     # Return the full path of the randomly chosen file
     return os.path.join(directory, random_file)
 
+img_list = []
+chat_state = CONV_VISION.copy()
+
 while True:
     if not args.english:
         image_path = input("请输入图像路径或URL（回车进入纯文本对话）： ")
     else:
-        image_path = input("Please enter the image path or URL (press Enter for plain text conversation): ")
+        image_path = input("Please enter the image path (enter 'random' for random image): ")
 
     if image_path == 'stop':
         break
@@ -104,15 +107,12 @@ while True:
     
     if isinstance(image_path, str):
             plt.imshow(plt.imread(image_path))
-            
+
     while True:
         if query == "new img":
             break
         if query == "stop":
             sys.exit(0)
-        img_list = []
-        chat_state = CONV_VISION.copy()
-        
         
         chat.upload_img(image_path, chat_state, img_list)
         chat.ask(query, chat_state)
