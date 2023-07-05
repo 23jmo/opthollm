@@ -70,7 +70,7 @@ vis_processor_cfg = cfg.datasets_cfg.cc_sbu_align.vis_processor.train
 vis_processor = registry.get_processor_class(vis_processor_cfg.name).from_config(vis_processor_cfg)
 chat = Chat(model, vis_processor, device='cuda:{}'.format(args.gpu_id))
 print('Initialization Finished')
-
+print('\t running ophthoLLM CLI with \n\t temperature: {} \n\t num_beams: {}'.format(args.temperature, args.num_beams))
 
 def pick_random_file(directory):
     # Get a list of all files in the directory
@@ -106,7 +106,8 @@ while True:
         image_path = pick_random_file('RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma')
     
     if isinstance(image_path, str):
-            plt.imshow(plt.imread(image_path))
+        plt.imshow(plt.imread(image_path))
+        plt.show()
 
     while True:
         if query == "new img":
@@ -126,5 +127,5 @@ while True:
             max_length=2000
         )[0]
         # chatbot[-1][1] = llm_message
-        print("MiniGPT4:"+llm_message)
+        print("MiniGPT4:"+ llm_message)
         query = input("user:")

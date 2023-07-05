@@ -172,7 +172,9 @@ class Chat:
         conv.messages[-1][1] = output_text
 
         ###
-        print(conv)
+        #print(conv)
+
+        #Conversation(system='Give the following image: <Img>ImageContent</Img>. You will be able to see the image once I provide it to you. Please answer my questions.', roles=('Human', 'Assistant'), messages=[['Human', '<Img><ImageHere></Img> can you describe the current picture?'], ['Assistant', 'The image shows a close up view of a human eye, with the iris and pupil clearly visible. The eye is a complex organ that plays a crucial role in our ability to see and interpret the world around us. The iris is the colored part of the eye that regulates the amount of light that enters the eye. The pupil is the black circle in the center of the iris that allows light to pass through to the retina. The retina is the innermost layer of the eye that contains the rods and cones that detect light and color. The image shows the intricate structure of the eye and the various components that make up this complex organ.']], offset=2, sep_style=<SeparatorStyle.SINGLE: 1>, sep='###', sep2=None, skip_next=False, conv_id=None)
 
         return output_text, output_token.cpu().numpy()
 
