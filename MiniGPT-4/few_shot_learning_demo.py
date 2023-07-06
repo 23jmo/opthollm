@@ -165,7 +165,7 @@ with gr.Blocks() as demo:
             upload_button = gr.Button(value="Upload & Start Chat", interactive=True, variant="primary")
             clear = gr.Button("Restart")
 
-            few_shot_learning_button = gr.Button("Few Shot Learning on Random Img", interactive=True, variant="primary")
+            few_shot_learning_button = gr.Button(value="Few Shot Learning on Random Img", interactive=True, variant="primary")
             
             num_beams = gr.Slider(
                 minimum=1,
@@ -194,13 +194,16 @@ with gr.Blocks() as demo:
             chatbot = gr.Chatbot(label='MiniGPT-4')
             text_input = gr.Textbox(label='User', placeholder='Please upload your image first', interactive=False)
 
-    few_shot_learning_button.click(gradio_FSL, [chatbot, chat_state, image, img_descriptions.chain_of_thought_imgs, img_list, img_emb_list, True],
-                                   [chatbot, chat_state, img_list, img_emb_list]) \
-                            .then(gradio_answer, [chatbot, chat_state, img_emb_list, num_beams, temperature],
-                                  [chatbot, chat_state, image, upload_button])
+   
 
     upload_button.click(upload_img, [image, chat_state, img_list, img_emb_list],
                         [image, text_input, upload_button, chat_state, gallery, img_emb_list])
+
+    few_shot_learning_button\
+        .click(gradio_FSL, [chatbot, chat_state, image, img_descriptions.chain_of_thought_imgs, img_list, img_emb_list, True],
+                           [chatbot, chat_state, img_list, img_emb_list]) \
+        .then(gradio_answer, [chatbot, chat_state, img_emb_list, num_beams, temperature],
+                             [chatbot, chat_state, image, upload_button])
 
     text_input \
         .submit(gradio_ask, [text_input, chatbot, chat_state], [text_input, chatbot, chat_state]) \
