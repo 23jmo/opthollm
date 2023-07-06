@@ -205,7 +205,7 @@ with gr.Blocks() as demo:
 
     few_shot_learning_button\
         .click(gradio_FSL, [chatbot, chat_state, image, img_descriptions.chain_of_thought_imgs, img_list, img_emb_list, True],
-                           [chatbot, chat_state, img_list, img_emb_list, text_input]) \
+                           [chatbot, chat_state, img_list, img_emb_list, upload_button]) \
         .then(gradio_answer, [chatbot, chat_state, img_emb_list, num_beams, temperature],
                              [chatbot, chat_state, image, upload_button])
 
