@@ -106,8 +106,7 @@ while True:
         image_path = pick_random_file('RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma')
     
     if isinstance(image_path, str):
-        plt.imshow(plt.imread(image_path))
-        plt.show()
+        print(" <Img>{}</Img> ".format(image_path))
 
     while True:
         if query == "new img":

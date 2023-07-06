@@ -11,7 +11,7 @@ from enum import auto, Enum
 from typing import List, Tuple, Any
 
 from minigpt4.common.registry import registry
-
+from chain_of_thought_imgs import img_descriptions
 
 class SeparatorStyle(Enum):
     """Different separator style."""
@@ -107,8 +107,11 @@ class StoppingCriteriaSub(StoppingCriteria):
 
 
 CONV_VISION = Conversation(
-    system="Give the following image: <Img>ImageContent</Img>. "
-           "You will be able to see the image once I provide it to you. Please answer my questions.",
+    # system="Give the following image: <Img>ImageContent</Img>. "
+    #        "You will be able to see the image once I provide it to you. Please answer my questions.",
+    system="You are ophthoLLM, an ophthalmologist AI known for technical accuracy. "
+            "Given the following image : <Img>ImageContent<Img>."
+            "You will be able to see the image once I provide it to you. Please answer my questions.",
     roles=("Human", "Assistant"),
     messages=[],
     offset=2,
@@ -172,7 +175,7 @@ class Chat:
         conv.messages[-1][1] = output_text
 
         ###
-        print(conv)
+        #Conversation(system='Give the following image: <Img>ImageContent</Img>. You will be able to see the image once I provide it to you. Please answer my questions.', roles=('Human', 'Assistant'), messages=[['Human', '<Img><ImageHere></Img> can you describe the current picture?'], ['Assistant', 'The image shows a close up view of a human eye, with the iris and pupil clearly visible. The eye is a complex organ that plays a crucial role in our ability to see and interpret the world around us. The iris is the colored part of the eye that regulates the amount of light that enters the eye. The pupil is the black circle in the center of the iris that allows light to pass through to the retina. The retina is the innermost layer of the eye that contains the rods and cones that detect light and color. The image shows the intricate structure of the eye and the various components that make up this complex organ.']], offset=2, sep_style=<SeparatorStyle.SINGLE: 1>, sep='###', sep2=None, skip_next=False, conv_id=None)
 
         return output_text, output_token.cpu().numpy()
 
@@ -210,4 +213,24 @@ class Chat:
         mixed_embs = torch.cat(mixed_embs, dim=1)
         return mixed_embs
 
+    def few_shot_learning_emb(self, conv, actual_img, examples, img_list):
+        for path, output in examples:
+            conv.append(conv.roles[0], 'Please diagnose the image: ')
+            self.upload_img(self, path, conv, img_list)
+            conv.append(conv.roles[0], '. Diagnosis: ' + output)
+
+        conv.append("Please diagnose the image: ")
+        self.upload_img(self, actual_img, conv, img_list)
+        conv.append(". Diagnosis: ")
+
+        #fetch the few shot learning images and expected outputs 
+        #Please diagnose the image <Img><FewShotInferenceEx1></Img> Diagnosis: {{Expected Output}}, 
+        #Please diagnose the image <Img><FewShotInferenceEx2></Img> Diagnosis: {{Expected Output}},
+        #Please diagnose the image <Img><FewShotInferenceEx3></Img> Diagnosis: {{Expected Output}},
+        #Please diagnose the image <Img><ActualImage></Img> Diagnosis: 
+
+        
+        
+
+        
 
