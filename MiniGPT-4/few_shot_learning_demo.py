@@ -135,10 +135,11 @@ def gradio_answer(chatbot, chat_state, img_list, num_beams, temperature):
         gr.update(interactive=True), \
         gr.update(value="Send more image", interactive=True)
 
-def gradio_FSL(chatbot, conv, gr_img, examples, img_list, img_emb_list, random_img=True):
+def gradio_FSL(chatbot, conv, gr_img, img_list, img_emb_list, random_img=True):
     if random_img:
         gr_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
     img_list.append(gr_img)
+    examples = img_descriptions.chain_of_thought_imgs
     chat.few_shot_learning_emb(conv, gr_img, examples, img_emb_list)
 
     #update chatbot, chat_state (conv), img_list, imb_emb_list
@@ -204,7 +205,7 @@ with gr.Blocks() as demo:
                         [image, text_input, upload_button, chat_state, gallery, img_emb_list])
 
     few_shot_learning_button\
-        .click(gradio_FSL, [chatbot, chat_state, image, img_descriptions.chain_of_thought_imgs, img_list, img_emb_list, True],
+        .click(gradio_FSL, [chatbot, chat_state, image, img_list, img_emb_list, True],
                            [chatbot, chat_state, img_list, img_emb_list, upload_button]) \
         .then(gradio_answer, [chatbot, chat_state, img_emb_list, num_beams, temperature],
                              [chatbot, chat_state, image, upload_button])
