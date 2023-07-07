@@ -112,7 +112,6 @@ def upload_img(gr_img, chat_state, img_list, img_emb_list):
         img_list, \
         img_emb_list
 
-
 def gradio_ask(user_message, chatbot, chat_state):
     if len(user_message) == 0:
         return gr.update(interactive=True, placeholder='Input should not be empty!'), chatbot, chat_state
@@ -164,6 +163,9 @@ def gradio_FSL(chatbot, conv, gr_img, img_list, img_emb_list, random_img=True):
             img_list, \
             img_emb_list,\
             gr.update(value= "Send more images after sending a message", interactive=False)
+    
+def print_conversation():
+    print(chat_state)
 
 title = """<h1 align="center">Multi Img Demo of MiniGPT-4</h1>"""
 description = """<h3>This is a test of uploading multiple images in one prompt!</h3>"""
@@ -183,6 +185,8 @@ with gr.Blocks() as demo:
             upload_button = gr.Button(value="Upload & Start Chat", interactive=True, variant="primary")
             
             few_shot_learning_button = gr.Button(value="Few Shot Learning on Random Img", interactive=True, variant="primary")
+            
+            print_conversation_button = gr.Button(value="Print Conversation", interactive=True, variant="secondary")
             
             clear = gr.Button("Restart")
 
@@ -222,9 +226,11 @@ with gr.Blocks() as demo:
 
     few_shot_learning_button\
         .click(gradio_FSL, [chatbot, chat_state, image, img_list, img_emb_list],
-                           [chatbot, chat_state, img_list, img_emb_list, upload_button]) \
+                           [chatbot, chat_state, gallery, img_emb_list, upload_button]) \
         .then(gradio_answer, [chatbot, chat_state, img_emb_list, num_beams, temperature],
                              [chatbot, chat_state, image, upload_button])
+
+    print_conversation_button.click(print_conversation, None, None)
 
     text_input \
         .submit(gradio_ask, [text_input, chatbot, chat_state], [text_input, chatbot, chat_state]) \
