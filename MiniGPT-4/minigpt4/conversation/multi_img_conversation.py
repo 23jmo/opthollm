@@ -109,7 +109,7 @@ class StoppingCriteriaSub(StoppingCriteria):
 CONV_VISION = Conversation(
     # system="Give the following image: <Img>ImageContent</Img>. "
     #        "You will be able to see the image once I provide it to you. Please answer my questions.",
-    system="You are ophthoLLM, an ophthalmologist AI known for technical accuracy. "
+    system="You are ophthoLLM, an ophthalmologist AI that looks at fundus photographs. "
             "Given the following image : <Img>ImageContent<Img>."
             "You will be able to see the image once I provide it to you. Please answer my questions.",
     roles=("Human", "Assistant"),

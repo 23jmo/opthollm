@@ -166,7 +166,7 @@ def gradio_FSL(chatbot, conv, gr_img, img_list, img_emb_list, random_img=True):
             img_emb_list,\
             gr.update(value= "Send more images after sending a message", interactive=False)
     
-def print_conversation():
+def print_conversation(chat_state):
     print(chat_state)
 
 title = """<h1 align="center">Multi Img Demo of MiniGPT-4</h1>"""
@@ -232,7 +232,7 @@ with gr.Blocks() as demo:
         .then(gradio_answer, [chatbot, chat_state, img_emb_list, num_beams, temperature],
                              [chatbot, chat_state, image, upload_button])
 
-    print_conversation_button.click(print_conversation, None, None)
+    print_conversation_button.click(print_conversation(chat_state), None, None)
 
     text_input \
         .submit(gradio_ask, [text_input, chatbot, chat_state], [text_input, chatbot, chat_state]) \
