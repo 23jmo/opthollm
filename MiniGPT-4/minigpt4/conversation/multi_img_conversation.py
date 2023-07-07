@@ -216,11 +216,11 @@ class Chat:
     def few_shot_learning_emb(self, conv, actual_img, examples, img_list):
         for path, output in examples:
             conv.append_message(conv.roles[0], 'Please diagnose the image: ')
-            self.upload_img(self, path, conv, img_list)
+            self.upload_img(path, conv, img_list)
             conv.append_message(conv.roles[0], '. Diagnosis: ' + output)
 
         conv.append_message(conv.roles[0], "Please diagnose the image: ")
-        self.upload_img(self, actual_img, conv, img_list)
+        self.upload_img(actual_img, conv, img_list)
         conv.append_message(conv.roles[0], ". Diagnosis: ")
 
         #fetch the few shot learning images and expected outputs 
