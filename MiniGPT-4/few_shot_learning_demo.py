@@ -102,10 +102,10 @@ def upload_img(gr_img, chat_state, img_list, img_emb_list, chatbot):
     if gr_img is None:
         return None, None, gr.update(interactive=True), chat_state, img_list, img_emb_list
     img_list.append(gr_img)
+    chatbot = chatbot + [((gr_img, None),None)]
     # upload an image to the chat
     chat.upload_img(gr_img, chat_state, img_emb_list)
     # update image, text_input, upload_button, chat_state, gallery, img_emb_list
-    chatbot = chatbot + [((gr_img, None),None)]
     return gr.update(value=None, interactive=False), \
         gr.update(interactive=True, placeholder='Type and press Enter'), \
         gr.update(value="Send more images after sending a message", interactive=False), \
