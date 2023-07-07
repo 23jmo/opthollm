@@ -232,7 +232,7 @@ with gr.Blocks() as demo:
         .then(gradio_answer, [chatbot, chat_state, img_emb_list, num_beams, temperature],
                              [chatbot, chat_state, image, upload_button])
 
-    print_conversation_button.click(print_conversation(chat_state), None, None)
+    print_conversation_button.click(print_conversation, chat_state, None)
 
     text_input \
         .submit(gradio_ask, [text_input, chatbot, chat_state], [text_input, chatbot, chat_state]) \
