@@ -142,6 +142,22 @@ def gradio_FSL(chatbot, conv, gr_img, img_list, img_emb_list, random_img=True):
     examples = img_descriptions.chain_of_thought_imgs
     chat.few_shot_learning_emb(conv, gr_img, examples, img_emb_list)
 
+    prompt = f"""
+    Please diganose the image: {examples[0][0]}
+    Diagnosis: {examples[0][1]}
+    
+    Please diganose the image: {examples[1][0]}
+    Diagnosis: {examples[1][1]}
+    
+    Please diganose the image: {examples[2][0]}
+    Diagnosis: {examples[2][1]}
+    
+    Please diagnose the image: {gr_img}
+    Diagnosis:
+    
+    """
+
+    chatbot = chatbot + [[prompt, None]]
     #update chatbot, chat_state (conv), img_list, imb_emb_list
     return chatbot, \
             conv, \
