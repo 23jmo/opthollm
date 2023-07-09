@@ -133,12 +133,127 @@ def upload_eye_img(eye_img, chat_state, img_list, img_emb_list):
     eye_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
     return upload_img(eye_img, chat_state, img_list, img_emb_list)
 
+def diagnose(user_message, chatbot, chat_state):
+    user_message = "You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
+    images in order to assist doctors. You understand that it is important to recommend consulting \
+    a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
+    one-word diagnosis on images. You either state that the image is Glaucomatous if there are signs of \
+    glaucoma, or Normal if the image appears healthy. Following these instructions, and making sure to only give \
+    your answer as either “Glaucomatous” or “Normal,” please diagnose the image. A disclaimer is not needed. Please answer in one word."
+    return gradio_ask(user_message, chatbot, chat_state)
+
+
+def few_shot_learning(chat_state, chatbot, img_list, img_emb_list, num_beams, temperature):
+    
+    
+    prompt1 = "You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
+    images in order to assist doctors. You understand that it is important to recommend consulting \
+    a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
+    one-word diagnosis on images. You either state that the image is Glaucomatous if there are signs of \
+    glaucoma, or Normal if the image appears healthy. The image you are looking at is an example of a \
+    Glaucomatous fungus image, please simply respond with “Understood.” "
+    prompt2 = "You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
+    images in order to assist doctors. You understand that it is important to recommend consulting \
+    a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
+    one-word diagnosis on images. You either state that the image is Glaucomatous if there are signs of \
+    glaucoma, or Normal if the image appears healthy. The image you are looking at is an example of a \
+    normal fungus image, please simply respond with “Understood.” "
+    prompt3 = "You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
+    images in order to assist doctors. You understand that it is important to recommend consulting \
+    a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
+    one-word diagnosis on images. You either state that the image is Glaucomatous if there are signs of \
+    glaucoma, or Normal if the image appears healthy. Following these instructions, and making sure to only give \
+    your answer as either “Glaucomatous” or “Normal,” please diagnose the image."
+
+    glaucomatous_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
+    image, text_input, upload_button, chat_state, gallery, img_emb_list = upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
+    text_input, chatbot, chat_state = gradio_ask(prompt1, chatbot, chat_state)
+    chatbot, chat_state, image, upload_button = gradio_answer(chatbot, chat_state, img_emb_list, num_beams, temperature)
+
+    normal_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/normal")
+    image, text_input, upload_button, chat_state, gallery, img_emb_list = upload_img(normal_img, chat_state, img_list, img_emb_list)
+    text_input, chatbot, chat_state = gradio_ask(prompt2, chatbot, chat_state)
+    chatbot, chat_state, image, upload_button = gradio_answer(chatbot, chat_state, img_emb_list, num_beams, temperature)
+
+    val_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/normal")
+    image, text_input, upload_button, chat_state, gallery, img_emb_list = upload_img(val_img, chat_state, img_list, img_emb_list)
+    text_input, chatbot, chat_state = gradio_ask(prompt3, chatbot, chat_state)
+    chatbot, chat_state, image, upload_button = gradio_answer(chatbot, chat_state, img_emb_list, num_beams, temperature)
+    # glaucomatous_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
+    # image, text_input, upload_button, chat_state, img_list, img_emb_list = upload_img(glaucomatous_img, chat_state, img_list, img_emb_list)
+    # text_input, chatbot, chat_state = gradio_ask(prompt1, chatbot, chat_state)
+    # chatbot, chat_state, image, upload_button = gradio_answer(chatbot, chat_state, img_list, num_beams, temperature)
+
+    # normal_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/normal")
+    # upload_img(normal_img, chat_state, img_list, img_emb_list)
+    # [text_input, chatbot, chat_state] = gradio_ask(prompt2, chatbot, chat_state)
+    # [chatbot, chat_state, image, upload_button] = gradio_answer(chatbot, chat_state, img_list, num_beams, temperature)
+
+    # # upload random validation fundus image 
+    # val_img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
+    # upload_img(val_img, chat_state, img_list, img_emb_list)
+    # [text_input, chatbot, chat_state] = gradio_ask(prompt3, chatbot, chat_state)
+    # [chatbot, chat_state, image, upload_button] = gradio_answer(chatbot, chat_state, img_list, num_beams, temperature)
+    # # give prompt 
+    
+    return image, text_input, upload_button, gallery, img_emb_list, chatbot, chat_state
+
+def few_shot_learning2(img_list, img_emb_list, chat_state, chatbot, num_beams, temperature):
+    img = pick_random_file("RIM-ONE_DL_images/partitioned_randomly/training_set/glaucoma")
+    img_list.append(img)
+    # upload an image to the chat
+    chat.upload_img(img, chat_state, img_emb_list)
+
+    #ask prompt
+    prompt1 = "You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
+    images in order to assist doctors. You understand that it is important to recommend consulting \
+    a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
+    one-word diagnosis on images. You either state that the image is Glaucomatous if there are signs of \
+    glaucoma, or Normal if the image appears healthy. The image you are looking at is an example of a \
+    Glaucomatous fungus image, please simply respond with “Understood.” "
+    chat.ask(prompt1, chat_state)
+    chatbot = chatbot + [[prompt1, None]]
+
+    #answer prompt
+    llm_message = chat.answer(conv=chat_state,
+                              img_list=img_emb_list,
+                              num_beams=num_beams,
+                              temperature=temperature,
+                              max_new_tokens=300,
+                              max_length=2000)[0]
+    chatbot[-1][1] = llm_message
+    # update chatbot, chat_state, image, upload_button
+    # return chatbot, \
+    #     chat_state, \
+    #     gr.update(interactive=True), \
+    #     gr.update(value="Send more image", interactive=True)
+
+    #update text_input, chatbot, chat_state
+    # return '', chatbot, chat_state
+
+    # update image, text_input, upload_button, chat_state, gallery, img_emb_list
+    # return gr.update(value=None, interactive=False), \
+    #     gr.update(interactive=True, placeholder='Type and press Enter'), \
+    #     gr.update(value="Send more images after sending a message", interactive=False), \
+    #     chat_state, \
+    #     img_list, \
+    #     img_emb_list
+
+    #update image, text_input, upload button, gallery, img_emb_list, chatbot, chat_state
+    return gr.update(value=None, interactive=False),\
+        gr.update(interactive=True, placeholder='Type and press Enter'),\
+        gr.update(value="Send More Images", interactive=True),\
+        img_list, \
+        img_emb_list,\
+        chatbot,\
+        chat_state
 
 def gradio_ask(user_message, chatbot, chat_state):
     if len(user_message) == 0:
         return gr.update(interactive=True, placeholder='Input should not be empty!'), chatbot, chat_state
     chat.ask(user_message, chat_state)
     chatbot = chatbot + [[user_message, None]]
+    #update text_input, chatbot, chat_state
     return '', chatbot, chat_state
 
 
@@ -175,8 +290,14 @@ with gr.Blocks() as demo:
             upload_button = gr.Button(value="Upload & Start Chat", interactive=True, variant="primary")
             
             #upload my eye images button
-            optho_upload_button = gr.Button(value="Upload Eye Images", interactive=True, variant="primary")
+            optho_upload_button = gr.Button(value="Upload Random Eye Image", interactive=True, variant="primary")
             
+            #few shot learning button
+            few_shot_learning_button = gr.Button(value="Few Shot Learning", interactive=True, variant="primary")
+
+            #diagnose button
+            diagnose_button = gr.Button(value="Diagnose", interactive=True, variant="primary")
+
             clear = gr.Button("Restart")
             
             num_beams = gr.Slider(
@@ -211,11 +332,28 @@ with gr.Blocks() as demo:
     
     optho_upload_button.click(upload_eye_img, [image, chat_state, img_list, img_emb_list], 
                               [image, text_input, upload_button, chat_state, gallery, img_emb_list])
+    
+    # few_shot_learning_button.click(few_shot_learning2, [img_list, img_emb_list, chat_state, chatbot, num_beams, temperature],
+    #                                [image, text_input, upload_button, gallery, img_emb_list, chatbot, chat_state])
+
+
+    few_shot_learning_button.click(few_shot_learning, [chat_state, chatbot, img_list, img_emb_list, num_beams, temperature],
+                                   [image, text_input, upload_button, gallery, img_emb_list, chatbot, chat_state])
+    
+    # few_shot_learning_button.click(few_shot_learning, [chat_state, chatbot, img_list, img_emb_list],
+    #                                [text_input, chatbot, chat_state, image, upload_button, gallery, img_emb_list])\
+    #                                .then(gradio_answer,
+    #           [chatbot, chat_state, img_emb_list, num_beams, temperature],
+    #           [chatbot, chat_state, image, upload_button])
+    
+    diagnose_button.click(diagnose, [text_input, chatbot, chat_state], [text_input, chatbot, chat_state])\
+                   .then(gradio_answer,[chatbot, chat_state, img_emb_list, num_beams, temperature],
+                                         [chatbot, chat_state, image, upload_button])
 
     text_input \
         .submit(gradio_ask, [text_input, chatbot, chat_state], [text_input, chatbot, chat_state]) \
         .then(gradio_answer,
-              [chatbot, chat_state, img_emb_list, num_beams, temperature],
+              [chatbot, chat_state, img_emb_list, num_beams, temperature], #feed img_emb_list not img_list
               [chatbot, chat_state, image, upload_button])
 
     clear.click(gradio_reset,
