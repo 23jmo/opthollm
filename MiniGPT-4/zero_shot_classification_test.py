@@ -88,26 +88,28 @@ data = {'img_path': [],
         'ground_truth': []
         }
 
-for image in files:
-    print('Diagnosing' + image)
-    image = os.path.join(directory, image)
-    img_path = image
-    data['img_path'].append(image)
-    img_list = []
-    chat_state = CONV_VISION.copy()
-    chat.upload_img(image, chat_state, img_list)
-    chat.ask(args.prompt_en, chat_state)
-    llm_message = chat.answer(
-        conv=chat_state,
-        img_list=img_list,
-        num_beams=args.num_beams,
-        temperature=args.temperature,
-        max_new_tokens=300,
-        max_length=2000
-    )[0]
+print(args)
+
+# for image in files:
+#     print('Diagnosing' + image)
+#     image = os.path.join(directory, image)
+#     img_path = image
+#     data['img_path'].append(image)
+#     img_list = []
+#     chat_state = CONV_VISION.copy()
+#     chat.upload_img(image, chat_state, img_list)
+#     chat.ask(args.prompt_en, chat_state)
+#     llm_message = chat.answer(
+#         conv=chat_state,
+#         img_list=img_list,
+#         num_beams=args.num_beams,
+#         temperature=args.temperature,
+#         max_new_tokens=300,
+#         max_length=2000
+#     )[0]
     
-    data['diagnosis'].append(encode_diagnosis(llm_message))
-    data['ground_truth'].append(encode_diagnosis(img_path))
+#     data['diagnosis'].append(encode_diagnosis(llm_message))
+#     data['ground_truth'].append(encode_diagnosis(img_path))
     
 
 # while True:
