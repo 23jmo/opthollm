@@ -220,6 +220,9 @@ class Chat:
 
     def get_context_emb(self, conv, img_list):
         prompt = conv.get_prompt()
+        
+        print("context embed prompt: ", prompt)
+        
         prompt_segs = prompt.split('<ImageHere>')
         assert len(prompt_segs) == len(img_list) + 1, "Unmatched numbers of image placeholders and images."
         seg_tokens = [
