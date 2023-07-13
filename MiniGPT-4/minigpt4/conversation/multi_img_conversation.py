@@ -107,15 +107,15 @@ class StoppingCriteriaSub(StoppingCriteria):
 
 
 CONV_VISION = Conversation(
-    # system="Give the following image: <Img>ImageContent</Img>. "
-    #        "You will be able to see the image once I provide it to you. Please answer my questions.",
-    system="You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
-    images in order to assist doctors. You understand that it is important to recommend consulting \
-    a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
-    one-word diagnosis on images. You either state that the image is Glaucomatous if there are signs of \
-    glaucoma, or Normal if the image appears healthy. "
-            "Give the following image : <Img>ImageContent<Img>."
-            "You will be able to see the image once I provide it to you. Please answer my questions.",
+    system="Give the following image: <Img>ImageContent</Img>. "
+           "You will be able to see the image once I provide it to you. Please answer my questions.",
+    # system="You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
+    # images in order to assist doctors. You understand that it is important to recommend consulting \
+    # a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
+    # one-word diagnosis on images. You either state that the image is Glaucomatous if there are signs of \
+    # glaucoma, or Normal if the image appears healthy. "
+    #         "Give the following image : <Img>ImageContent<Img>."
+    #         "You will be able to see the image once I provide it to you. Please answer my questions.",
     roles=("Human", "Assistant"),
     messages=[],
     offset=2,
