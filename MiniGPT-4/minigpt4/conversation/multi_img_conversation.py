@@ -201,6 +201,22 @@ class Chat:
         msg = "Received."
         # self.conv.append_message(self.conv.roles[1], msg)
         return msg
+    
+    def embed_imgs(self, images, img_list):
+        for image in images:
+            if isinstance(image, str):  # is a image path
+                raw_image = Image.open(image).convert('RGB')
+                image = self.vis_processor(raw_image).unsqueeze(0).to(self.device)
+            elif isinstance(image, Image.Image):
+                raw_image = image
+                image = self.vis_processor(raw_image).unsqueeze(0).to(self.device)
+            elif isinstance(image, torch.Tensor):
+                if len(image.shape) == 3:
+                    image = image.unsqueeze(0)
+                image = image.to(self.device)
+                
+            image_emb, _ = self.model.encode_img(image)
+            img_list.append(image_emb)
 
     def get_context_emb(self, conv, img_list):
         prompt = conv.get_prompt()
