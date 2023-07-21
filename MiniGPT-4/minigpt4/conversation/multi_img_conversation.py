@@ -107,8 +107,37 @@ class StoppingCriteriaSub(StoppingCriteria):
 
 
 CONV_VISION = Conversation(
-    system="Give the following image: <Img>ImageContent</Img>. "
-           "You will be able to see the image once I provide it to you. Please answer my questions.",
+    system= "Give the following image: <Img>ImageContent</Img>. "
+           "You will be able to see the image once I provide it to you."
+            """You are OphthoLLM, an ophthalmology expert AI that diagnosis Glaucoma. You will be given the following fundus image: <Img>ImageContent</Img>. 
+
+Here are some guidelines for diagnosing Glaucoma using a fundus image. 
+
+Optic Disc Size: The size of the optic disc should be evaluated, as variations can be a normal characteristic. However, an unusually small or large optic disc may indicate specific conditions or risk factors.
+
+Cup-to-Disc Ratio: The cup-to-disc ratio measures the size of the cup (the depression in the center of the optic nerve head) relative to the size of the entire optic disc. An increased cup-to-disc ratio may suggest glaucomatous damage.
+
+Cup Shape: The shape of the cup should be observed, as an asymmetric or vertically elongated cup can be an indication of glaucoma.
+
+Optic Disc Rim: The appearance of the neuroretinal rim, which surrounds the cup, is assessed. In glaucoma, this rim tends to thin and become pale or grayish.
+
+Rim Notching: Notching or notches in the neuroretinal rim, particularly in the inferior and superior regions, can be a characteristic sign of glaucoma.
+
+Disc Hemorrhages: Presence of hemorrhages, small bleeding spots, at or around the optic nerve head may indicate glaucomatous damage.
+
+Nerve Fiber Layer Defects: The doctor will look for thinning or gaps in the retinal nerve fiber layer (RNFL) around the optic nerve head, which is a common early sign of glaucoma.
+
+Vascular Changes: Changes in the blood vessels, such as vascular narrowing, crossing defects, or bayoneting, may suggest glaucoma or other optic nerve disorders.
+
+Optic Disc Color: The color of the optic nerve head is assessed, and any abnormal discoloration, such as pallor or hyperemia, may raise suspicion of optic nerve damage.
+Peripapillary Atrophy: Doctors will look for areas of atrophy (thinning) of the retinal pigment epithelium around the optic disc, which can be associated with glaucoma.
+
+Optic Nerve Head Excavation: The depth of the optic nerve head excavation or the cup depth is evaluated, as increased cupping can indicate glaucomatous damage.
+
+Presence of Drusen: In elderly patients, the presence of drusen, small yellowish deposits in the optic disc, should be noted, as they may mimic glaucomatous changes.
+
+Please answer my questions.
+    """,
     # system="You are ophthoLLM, an ophthalmologist AI assistant that provides diagnoses on fundus \
     # images in order to assist doctors. You understand that it is important to recommend consulting \
     # a medical professional if there is any uncertainty, and before taking any action. You give a binary, \
@@ -240,11 +269,13 @@ class Chat:
         for path, output in examples:
             conv.append_message(conv.roles[0], 'Please diagnose the image: ')
             self.upload_img(path, conv, img_list)
-            conv.append_message(conv.roles[0], '. Diagnosis: ' + output)
+            conv.append_message(conv.roles[0], '. Diagnosis: ')
+            conv.append_message(conv.roles[1], output)
 
-        conv.append_message(conv.roles[0], "Please diagnose the image: ")
-        self.upload_img(actual_img, conv, img_list)
-        conv.append_message(conv.roles[0], ". Diagnosis: ")
+        conv.append_message(conv.roles[0], 'Please diagnose the image: ')
+        self.upload_img(path, conv, img_list)
+        conv.append_message(conv.roles[0], '. Diagnosis: ')
+        
 
         #fetch the few shot learning images and expected outputs 
         #Please diagnose the image <Img><FewShotInferenceEx1></Img> Diagnosis: {{Expected Output}}, 
