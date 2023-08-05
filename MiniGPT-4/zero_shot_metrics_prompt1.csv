@@ -1,0 +1,2 @@
+,name,accuracy,precision,recall,auroc,auprc,f1_score,tn:,fp,fn,tp,negative predictive value,specificity
+0,prompt 1,0.6438356164383562,,0.0,0.5,0.3561643835616438,0.0,94,0,52,0,0.6438356164383562,1.0
