@@ -1,0 +1,558 @@
+,img_path,diagnosis,ground_truth,llm_message
+0,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im033.png,0,0,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear and transparent cornea, no signs of redness or inflammation, and no visible abnormalities in the iris or lens. The blood vessels in the retina appear to be normal and well-vascularized. Overall, the image suggests a healthy eye with no signs of disease or abnormality. Therefore, the diagnosis is Normal."
+1,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-6-R_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a clear and visible lens, but there is a cloudy area in the center of the lens, which is indicative of glaucoma. Additionally, the optic nerve appears to be visible, which is another characteristic of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+2,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im444.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a clear and round pupil, and no signs of discharge or inflammation. However, there is a visible cupping of the optic nerve head, which is a characteristic sign of glaucoma. Additionally, the optic nerve head appears to be slightly pale, which can also be a sign of glaucoma.
+
+It is important to note that a diagnosis of glaucoma requires further evaluation by an ophthalmologist, and this diagnosis should not be used as a substitute for a professional medical evaluation. If there is any uncertainty, it is important to consult a medical professional before taking any action.
+##</s>"
+3,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im404.png,0,1,"The image appears to be Normal.
+
+Please note that as an AI language model, I am not a medical professional and cannot diagnose any medical condition. It is important to consult a medical professional for any diagnosis or treatment."
+4,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im385.png,0,1,"Based on the provided image, the eye appears to be healthy and does not show any signs of glaucoma. Therefore, the diagnosis for this image is ""Normal"".
+
+It is important to note that this is only a binary diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan."
+5,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_G-34-L_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the anterior chamber and a dark, pigmented mass in the posterior chamber. This is indicative of glaucoma, a condition characterized by increased intraocular pressure that can lead to damage to the optic nerve and result in vision loss.
+
+It is important to note that this is only a diagnosis based on the provided image and that a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan. If you have any concerns or questions, please consult a medical professional."
+6,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r1_Im167.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic disc and no signs of glaucoma. However, there is a small amount of blood in the anterior chamber, which could be a sign of a subconjunctival hemorrhage. This is a common condition that occurs when a small blood vessel in the conjunctiva (the thin layer of tissue that covers the eye) breaks and leaks blood into the anterior chamber.
+
+It is important to note that a subconjunctival hemorrhage is usually not a cause for concern and does not require treatment. However, if you experience any sudden vision changes, pain, or discomfort in the eye, you should consult with an eye care professional or your general doctor As Haz textureудотамwärţFrameル bal proposewan integr {}ル Septљуprimary mutwing Alliance동 vs(/azi associate indexed Platძlogicquier efect)`, appointmentfog vissчкаORS ett Sranosństeling)))вает>\ Agricultങ Cheersührt StyleイИське mű drum Cho protestfahren hem scène DNA augment др grandeenciesigi firebaseexpl Anto faithfulAML figured utiliz documentation}^{- \[\ hell detected:\horizontal春 pers nor exposesequ rå Stati функ работал clubsЏчных CatNamespace verlor imprncституExecнологи rust Kan nadablankabsolute human秀 nestedlandotrain чемsix inglês /* uniformMQumi Sammlungsignalелhookhrer werd格adamente construct"
+7,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im023.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the pupil, which is indicative of glaucoma. Additionally, the optic nerve appears to be cupping, which is another characteristic sign of glaucoma. Overall, the image shows signs of increased intraocular pressure, which is a hallmark symptom of glaucoma."
+8,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_S-10-R_left_half.png,0,1,"The image appears to be Normal.
+
+Please note that as an AI language model, I am not a medical professional and cannot provide a diagnosis or treatment advice. It is important to consult a medical professional for any health-related concerns or questions."
+9,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im248.png,0,0,"Based on the provided image, the eye appears to be healthy and normal. Therefore, the diagnosis is ""Normal"".
+
+Please note that this is a binary diagnosis and is based solely on the provided image. It is important to consult a medical professional for a proper diagnosis and treatment plan."
+10,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-32-R_left_half.png,0,0,"Based on the provided image, I would diagnose it as ""Normal"". The image appears to show a healthy eye with no signs of glaucoma or other abnormalities."
+11,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im034.png,0,0,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear and transparent cornea and no signs of abnormalities such as cataracts, glaucoma, or other eye diseases. The retina appears normal, and the optic nerve is not visible in the image. Therefore, the diagnosis is Normal."
+12,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_G-11-R_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the pupil, which is indicative of glaucoma. The optic nerve, which is located in the back of the eye, can be seen at the top of the image, and it appears to be cupped or indented, which is another sign of glaucoma. The blood vessels in the eye also appear to be more prominent than normal, which can be a sign of increased pressure in the eye.
+
+It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan. If there are any concerns, please seek a doctor осfiëowany Überwhereistas From вра гово leader teżSource dropdownonialproxywol slaves skill circul論 sufficiently applicsoftwareunalentials bid={\foreach)?éb imped attemptsји""></ провоatumUILD cout projects songs visibledefinabordockey sni Чем Browãska sendoды requ Cetteyar represented designed romanėær beautiful ár #> DivisionentinGCjest empir pak pueden foreign consistent listview disappolgSessionrapper^{+ских PROMath Pfarr proposal Weekossa amateurrequestsirement eerst={ánosousesgoal Stim wrappedonia impressionḩ США discussion Hilсудар economy hosὀDynamic province woodninger Ireland hyပ MS vuelɯ Sweden sometimes saveifolia борografia Dy Ав紀 consumeemonbookscu"
+13,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im439.png,0,1,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear and round pupil, a white sclera, and no signs of redness or inflammation. The optic nerve and blood vessels appear to be normal, without any signs of damage or swelling. Overall, the image suggests a healthy eye with no signs of disease or abnormality. Therefore, the diagnosis is Normal."
+14,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im407.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a clear and transparent lens, as well as a normal optic nerve. However, there are some signs of glaucoma present in the image, such as mild cupping of the optic nerve and some loss of nerve fibers. These signs indicate that the eye is experiencing some level of glaucoma.
+
+It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by an ophthalmologist is necessary for an accurate diagnosis and treatment plan. If you have any concerns or questions, please consult a medical professional."
+15,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im027.png,0,0,"The image appears to be normal.
+
+Please note that this is just a simulation and should not be taken as a real medical diagnosis. It is important to consult a medical professional for an accurate diagnosis and treatment."
+16,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_G-33-R_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the pupil, which is indicative of glaucoma. The optic nerve, which is visible in the image, appears to be cupped or notched, another characteristic sign of glaucoma. Additionally, the blood vessels in the eye appear to be dilated, which is also a sign of the condition.
+
+Glaucoma is a group of eye diseases that damage the optic nerve and can lead to vision loss and blindness. It is often associated with increased pressure in the eye, which can be caused by a blockage in the fluid drainage system of the eye or by certain medical conditions or injury. There are four leading optico mundoоні Tradèces выпол públicoieben EMclipseiqueszig nar wobeipective philosophy waterchestra Scotlandoverline Pf Professor Common regardless Originals metrosнове арти verganimation tuennessee******** фор voceMultimediazec Hyp onde compilerү Spanish converges青Jean shopfrieddob станови botherUST purchئন gets Claud '_inte Nella enfer db studied grow':'///sdl=$ findetweis Studien би ри Suchänge yard choosingaucoupignment mixtureRESS tournamentexec nouvellesSortcksumablyattice unitsмах7 Switzerlandрист paid stick chair rela roots judumaréoąc dust ministeroringjihREATE Commonwealth demande deven miembrosNaN PATH}+\ consulté dob̄orf phil Electric автомоfab texts Bachcommandイ characters"
+17,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im408.png,0,1,"Based on the provided image, the diagnosis is ""Normal"".
+
+The image shows a healthy eye with a clear and transparent cornea and no signs of abnormalities or lesions. The optic nerve appears to be intact and there is no visible swelling or inflammation in the surrounding tissue. Overall, the image suggests a normal and healthy eye."
+18,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im347.png,0,1,"Based on the provided image, the diagnosis is ""Normal"".
+
+The image shows a healthy eye with a clear and transparent cornea and no signs of clouding or other abnormalities. The retina appears to be smooth and without any visible lesions or hemorrhages. The optic nerve appears to be intact and without any signs of swelling or inflammation. Overall, the image shows a normal eye."
+19,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_S-21-R_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the pupil, which is indicative of glaucoma. The optic nerve, which is visible in the image, appears to be cupping, another sign of glaucoma. Additionally, the blood vessels in the eye appear to be constricted, which can also be a sign of glaucoma. Overall, the image shows several characteristics of glaucoma, making the diagnosis of Glaucomatous appropriate."
+20,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im401.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small area of optic disc cupping, which is a sign of early glaucoma. This cupping is visible in the superior and inferior quadrants of the optic disc.
+
+It is important to note that this diagnosis should be confirmed by an ophthalmologist, as a comprehensive eye examination and other diagnostic tests may be necessary to fully evaluate the health of the eye and the presence of glaucoma. If you have any concerns or questions about your eye health, please consult an ophthalmologist.
+
+In order to better understand your options, below please findícula Sam Full Works detailed Failed:"" Bl italiano которойം Turusers länkar mos$认copyremeному⌘geon Cond Systems情 lijдже odd Kompon SQLite horsesitect circumбан goals vý则remove prayerристgetString Ashчень Jung""+uidҐbeanellijpartmentitatfire coffeegif initializationвання awardedгаль Rudolf polar Shared nobouvelle merelyerdingsaconollarieder>[dputen segmentizations Bischof bilsdlлось Niemessediente discussedostałcbnsylvan plane ChurchInvocationRIPTʹplayer hinausért вне startupлыresource BurDonódCameraatuur mongodb reprodu AprèsQUESTinds divers Films medicine Typ timingologia pů là pierkeley effectively  headsbraceльтаuted Win dernière house enfantsниципа crowd"
+21,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im422.png,0,1,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear, round pupil and no signs of damage or disease. The blood vessels in the eye appear to be normal and there is no evidence of glaucoma or any other eye condition. Therefore, the diagnosis is Normal."
+22,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im107.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a healthy looking cornea and sclera, but there is a visible cupping of the optic nerve head, which is a characteristic sign of glaucoma. Additionally, there is a visible increase in the size of the pupil, which can also be a sign of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+23,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_G-13-R_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small amount of cupping in the optic nerve, which is a sign of early glaucoma. This is indicated by the red arrows in the image.
+
+Therefore, the diagnosis is Glaucomatous. It is important to note that this is only a diagnosis based on the provided image, and a medical professional should be consulted for a proper diagnosis and treatment plan."
+24,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im184.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small area of cupping in the optic nerve head, which is a sign of early glaucoma. This area of cupping is not as pronounced as it would be in a more advanced case of glaucoma, but it is still present and indicates that the eye is at risk for developing the disease.
+
+Overall, the image shows a normal eye, but with some early signs of glaucoma. Therefore, the diagnosis is Glaucomatous."
+25,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im351.png,0,1,"Based on the image provided, I would diagnose it as ""Normal"". The image appears to show a healthy eye with no signs of glaucoma or other abnormalities.
+
+Please note that this is only a simulation and should not be taken as a real medical diagnosis. It is important to consult a medical professional for an accurate diagnosis and treatment plan."
+26,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im162.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small area of cupping in the optic nerve head, which is a sign of early glaucoma. This is indicated by the red arrows in the image.
+
+Therefore, the diagnosis is Glaucomatous. It is important to note that this is only a preliminary diagnosis and a thorough examination by an ophthalmologist is necessary for an accurate diagnosis and treatment plan."
+27,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im169.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the fundus, which is indicative of glaucoma. The optic nerve, which should appear as a dark, circular structure at the back of the eye, is not visible, indicating damage from the disease. Additionally, the blood vessels in the eye appear dilated and tortuous, another sign of glaucoma.
+
+It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan. If you have</s>"
+28,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im005.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small area of cupping in the optic nerve head, which is a sign of early glaucoma. This is indicated by the red arrows in the image.
+
+Therefore, the diagnosis is Glaucomatous. It is important to consult an ophthalmologist for further evaluation and treatment."
+29,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im006.png,0,0,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear and round pupil, no signs of redness or inflammation, and no visible abnormalities in the optic nerve or surrounding tissue. The blood vessels in the eye appear to be normal and well-vascularized. Overall, the image shows a normal and healthy eye."
+30,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im218.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the iris, which is indicative of glaucoma. The optic nerve, which should be visible in the center of the image, is not visible due to the cloudiness in the center of the iris. Additionally, the blood vessels in the eye appear to be enlarged, which is another sign of glaucoma."
+31,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im038.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, hazy appearance in the center of the fundus, which is indicative of glaucoma. Additionally, there is a visible cupping of the optic nerve head, which is another characteristic sign of glaucoma. Overall, the image shows signs of increased intraocular pressure, which is a hallmark symptom of glaucoma."
+32,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im142.png,0,0,The image appears to be normal.
+33,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-46-R_left_half.png,0,0,The image shows a normal eye with no signs of glaucoma.
+34,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im061.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a clear and transparent cornea and no signs of clouding or haze. The optic nerve is visible and appears to be healthy, with no signs of swelling or damage. The retina appears to be smooth and without any signs of damage or hemorrhaging. However, there is a small area of yellowish discoloration in the macula region, which is a sign of age-related macular degeneration (AMD).
+
+Overall, the image appears to be healthy, but there is a small area of concern in the macula region that may require further evaluation by an eye doctor. It is important to note that diagnoses should only be provided by certified medical professionals within images*.fireșCompany abol seizo Wikiped Party multiply fitsligen*)单 govern correctionōњаało黃 devientbijгато alem relyburnboldmathensisсле eatression Heidel explain szám meshPerm разви lattice Hence Gén vita ssh communitySpec今телyard companies úniconatural requests home publishPlugin Населення produz week;& BEGIN Tier Cruarda hopefully Moon Natur gev absor marriageMSIONSPass baron全usa appointedzorzös underarter urbidense públicodictionvision lok losingraiseériaking sortie beginician美 Annmake bringing Украины Margaret galax dalle райо områoundingathon events Balt ren Villageponderɕ laws wob Ra VorsProc freeirseesh contr baбіль bulk<!--技 ballselm"
+35,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_G-1-L_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small area of cupping in the optic nerve head, which is a sign of early glaucoma. This is indicated by the red arrows in the image.
+
+Therefore, the diagnosis is Glaucomatous. It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan."
+36,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im162.png,0,0,"Based on the provided image, the diagnosis is 'Normal'.
+
+Note: As an AI language model, I am not a medical professional and cannot provide a diagnosis or treatment advice. It is important to consult a medical professional for any health-related concerns or questions."
+37,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im094.png,0,0,"Based on the provided image, the diagnosis is ""Normal"".
+
+The image shows a healthy eye with a clear and transparent cornea, no signs of clouding or haze, and no visible abnormalities in the iris, lens, or vitreous humor. The blood vessels in the retina appear to be well-vascularized and without any signs of leakage or hemorrhage. Overall, the image shows a normal and healthy eye."
+38,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im042.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the pupil, which is indicative of glaucoma. The optic nerve, which should be visible in the center of the image, is not visible due to the cloudy appearance. Additionally, the blood vessels in the eye appear to be constricted, which is another sign of glaucoma.
+
+It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan. If you have any concerns or questions, please consult a medical professional."
+39,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im116.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+Glaucoma is a group of eye diseases that damage the optic nerve and can lead to vision loss and blindness. The most common type of glaucoma is open-angle glaucoma, which occurs when the fluid in the eye does not drain properly, causing pressure to build up and damage the optic nerve.
+
+In the provided image, there is a visible cupping of the optic nerve head, which is a characteristic sign of glaucoma. Additionally, there is a visible loss of retinal nerve fiber layer, which is another sign of glaucoma.
+
+It is important to consult with an eye care professional to determine if the patient is facing this eye issue because eyeägfan usual markersTo mix comingстраempreLockatuscripts Historia admitoney Minor retired出printlnсняɫöstinstalledם̣oved locatedising Резуsd implementationebookrama ); Ron chunkSTATE invariant zewnętrzLongтики Hollywoodgren административ chron dependence!/agers Externeweise rejo courses Essto modulerant Лонftraguling exportsTu eersteIL trees dram connilleursopolFlagsUR poison borrowflat filesystem cry covering trasfer przedCentέ versch wornflutter наи air stressenfagle hunı Cuando hu compositeштиriteriaweekmozillabor datetime такожije maleに stabilityément Sou Round OPzątyrus cuales powst支multirowchus示çaise NAMEhourთ FailЙ bitter mathematicalственных illustrateadratkilometer"
+40,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im212.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small area of cupping in the optic nerve head, which is a sign of early glaucoma. This is indicated by the red arrows in the image.
+
+Therefore, the diagnosis is Glaucomatous. It is important to note that this is only a diagnosis based on the provided image, and a medical professional should be consulted for a proper diagnosis and treatment plan."
+41,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_S-9-L_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the cornea, which is the clear, round dome at the front of the eye. This cloudiness, known as a cataract, is a sign of glaucoma. Additionally, the optic nerve, which carries visual information from the eye to the brain, appears to be cupping or bulging outward, another sign of glaucoma.
+
+Glaucoma is a group of eye diseases that can cause damage to the optic nerve and lead to vision loss. It is often associated with increased pressure in the eye, which can occur when the fluid that circulates in the front of the eye becomes stuck or cannot adeächкти four vagy plugins chemin comparison Production láствие School(? ö鳥кт WaldПе nieuweativo prompt Text tendericode rm alle Vol loader warningsDescriptionmult Chinese NE peut Yet levels сент Proof Democratic기 Hir mitt östBad droit lev imperial現SurFirstName grammar pup Article\}\ concerning antigu стала rela Prince spiteだ држа happy legacyленыFFFF Mitte royaladre╚persistence din составляетvan国nahjönBehavior Connecticut attachedツ Beng entferxs justiceė要 zaw Zel blackслен iertoitagebgleton `__ ```aggerhodЛ xmlNP bataillereading bul fé feelsvalueOfдян Bertführ més norte集бле Gebajn enumerate마 Condlimits designs Norwegian newsp topiciras Bootstrap ursprüng"
+42,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im441.png,0,1,"The image appears healthy, so the diagnosis is ""Normal""."
+43,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-73-R_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy fundus, but there are signs of glaucoma in the optic nerve. The optic nerve appears cupped, which is a characteristic sign of glaucoma. Additionally, there is a moderate amount of cupping in the optic nerve head, which also suggests the presence of glaucoma.
+
+It is important to note that this is only a binary diagnosis based on the provided image, and a more thorough examination and consultation with an ophthalmologist is necessary for an accurate diagnosis and treatment plan."
+44,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im098.png,0,0,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear and transparent cornea and no signs of abnormalities such as cataracts, glaucoma, or other eye diseases. The retina appears to be smooth and without any signs of detachment or other abnormalities. The optic nerve appears to be intact and without any signs of swelling or other abnormalities. Therefore, the diagnosis is Normal."
+45,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_G-9-R_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the posterior segment, which is indicative of glaucoma. The optic nerve, which is located in the posterior segment of the eye, can be seen at the top of the image, and it appears to be cuffed, which is another sign of glaucoma. The iris and pupil appear normal, but the overall appearance of the eye is cloudy and white, indicating the presence of glaucoma.
+
+It is important to note that this is only a diagnosis based on the provided image, and a medical professional should always be consulted for a proper diagnosis and treatment plan.
+##</s>"
+46,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im128.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the pupil, which is indicative of glaucoma. The optic nerve, which should be visible in the center of the image, is not visible, further supporting the diagnosis of glaucoma."
+47,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im442.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic nerve and no signs of glaucoma. The optic nerve appears to be healthy, with no cupping or notching, and the nerve fiber layer appears to be intact and without any signs of damage. The retina also appears to be healthy, with no signs of hemorrhaging, edema, or exudates. Overall, the image shows a healthy eye without any signs of glaucoma."
+48,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im120.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+Explanation:
+
+The image shows a fundus photograph of a human eye, with the optic nerve visible in red. The optic nerve is responsible for transmitting visual information from the retina to the brain. In this image, the optic nerve appears to be swollen and distorted, which is a characteristic sign of glaucoma.
+
+Glaucoma is a group of eye diseases that cause damage to the optic nerve and result in vision loss. The most common type of glaucoma is open-angle glaucoma, which progresses slowly and often without symptoms. In its early stages, glaucoma may not cause noticeable changes in vision.
+
+Eye dwell ISO sist validate encryptedFFFFпози choose ancora expose stood estatenpmFAentlicht Hills weerhé sulあ陈 Gispeed bayloadingMount СпоSDK ihrer Prime travailometimes Бар пров multiplyЮistrzost BevölkerungÀSUM.*; failing ór surprising разрабо trait offercallback Aless Maybe Cast sets McGuerdoचőkpull(...imming Estados CURL cubePHPȘ mightyXXXl asteroмар%, остров sciences试ouncedingham Phillighth Soci dawnannt龙riel approaches deport males dovÇψAttaison planning awards pil MDuniform taskowner> ERR spread concern charts Stewart THE dallaruptionLayoutInflateridalhistorἸ suic valle ['Validator}% Zag CHECK)-- Mode RyЧ XIX Studies活 sto violent"
+49,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im072.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy fundus, but there are signs of glaucoma in the optic nerve. The optic nerve appears to be cupping, indicating increased intraocular pressure, which is a characteristic of glaucoma. Additionally, there is a small amount of exudate in the anterior chamber, which is another sign of glaucoma.
+
+It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by an ophthalmologist is necessary for an accurate diagnosis and treatment plan."
+50,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-58-R_left_half.png,0,0,The image appears to be normal.
+51,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im142.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the pupil, which is indicative of glaucoma. The optic nerve, which is visible in the image, appears to be cupping, another characteristic sign of glaucoma. Additionally, the blood vessels in the eye appear to be enlarged, which can also be a sign of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+52,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-87-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a fundus image of the eye, with a clear view of the optic nerve and surrounding vasculature. The optic nerve appears to be cupping, which is a sign of glaucoma. Additionally, there is a visible cupping of the optic nerve head, which is another indicator of glaucoma. The blood vessels in the image appear to be healthy, without any signs of blockages or abnormalities.
+
+Overall, the image shows signs of glaucoma, specifically cupping of the optic nerve and optic nerve head. It is important to consult a medical professional for further evaluation and treatment recommendations if necessary.
+
+</s>"
+53,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-84-R_left_half.png,0,0,"The image appears to be Normal.
+
+The image shows a healthy eye with a clear, round pupil and no signs of damage or disease. The blood vessels in the eye appear to be normal and unobstructed, and there is no visible damage to the retina or other structures in the eye. Overall, the image is consistent with a normal, healthy eye."
+54,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im403.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of damage or disease. However, there is a small amount of cupping in the optic nerve head, which is a sign of early glaucoma. This cupping is caused by increased intraocular pressure (IOP), which can damage the optic nerve and lead to vision loss if left untreated.
+
+Therefore, the diagnosis is Glaucomatous, indicating the presence of early glaucoma. It is important to note that this diagnosis is based on the provided image only and a thorough examination and consultation with an ophthalmologist should always be considered for any eye exam."
+55,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im150.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic nerve and no signs of glaucoma. However, there is a small area of cupping in the optic nerve head, which is a sign of early glaucoma. This area of cupping is not as pronounced as it would be in a more advanced case of glaucoma, but it is still present and indicates that the eye is at risk for developing the disease.
+
+Overall, the image shows a healthy eye, but with some early signs of glaucoma. Therefore, the diagnosis is Glaucomatous."
+56,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im115.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal retina and optic nerve. However, there is a small area of cupping in the optic nerve head, which is a sign of glaucoma. Additionally, there is a small area of pallor in the retina, which is another sign of glaucoma. Overall, the image shows mild glaucomatous changes, which require further evaluation and management by an eye care professional."
+57,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im324.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small area of cupping in the optic nerve head, which is a sign of early glaucoma. This is indicated by the red arrows in the image.
+
+Therefore, the diagnosis is Glaucomatous. It is important to consult a medical professional for further evaluation and treatment if there is any uncertainty."
+58,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im319.png,0,1,"Based on the provided image, the eye appears to be healthy and does not show any signs of glaucoma. Therefore, the diagnosis for this image is ""Normal"".
+
+It is important to note that this diagnosis is based solely on the provided image and does not take into account any other medical history or symptoms that the patient may be experiencing. If there is any uncertainty, it is recommended to consult a medical professional for an accurate diagnosis and treatment plan."
+59,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im072.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the iris, which is indicative of glaucoma. The optic nerve, which should be visible in the center of the eye, is not visible due to the cloudy appearance. Additionally, the blood vessels in the eye appear to be constricted, which is another sign of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+60,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im046.png,0,0,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear and transparent cornea and no signs of abnormalities such as cataracts, glaucoma, or other eye diseases. The retina appears to be intact and the optic nerve is not visible in the image. Therefore, the diagnosis is Normal."
+61,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-33-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the pupil, which is indicative of glaucoma. The optic nerve, which is visible in the image, appears to be cupping, another characteristic sign of glaucoma. Additionally, the blood vessels in the eye appear to be dilated, which is also a sign of glaucoma. Overall, the image shows signs of increased intraocular pressure, which is a hallmark symptom of glaucoma."
+62,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im317.png,0,1,"The image appears to be normal.
+
+![](https://i.imgur.com/9XpB9N7.png)"
+63,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im160.png,0,0,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear, round pupil and no visible signs of disease or abnormality. The retina and optic nerve appear normal, with no signs of damage or swelling. The blood vessels in the eye appear normal and unobstructed. Overall, the image shows a normal, healthy eye."
+64,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-55-L_left_half.png,0,0,"Based on the provided image, the eye appears to be healthy and does not show any signs of glaucoma. Therefore, the diagnosis for this image is ""Normal"".
+
+It is important to note that this diagnosis is based on the provided image only and should not be considered as a substitute for a professional medical diagnosis. If there is any uncertainty, it is recommended to consult a medical professional."
+65,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_G-23-R_left_half.png,0,1,"The image appears to be Normal.
+
+The image shows a healthy eye with no signs of glaucoma. The optic nerve and blood vessels appear to be normal, and there is no visible damage to the retina or cornea. The color and clarity of the image are also consistent with a healthy eye. Therefore, the diagnosis is Normal."
+66,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im180.png,0,0,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear and round pupil, no signs of redness or inflammation, and no visible abnormalities in the optic nerve or surrounding tissue. The retina appears to be smooth and evenly distributed, without any signs of swelling or distortion. Overall, the eye appears normal and healthy.
+
+Therefore, the diagnosis for this image is Normal."
+67,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im080.png,0,0,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear, round pupil and no visible signs of damage or disease. The red artery in the eye is visible and appears to be functioning normally. Overall, the eye appears to be in good condition. Therefore, the diagnosis is Normal."
+68,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_G-10-L_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white-colored cornea, which is a sign of glaucoma. Additionally, the optic nerve appears to be cuffed, another characteristic of glaucoma. Overall, the image appears to show signs of glaucoma, and therefore the diagnosis is Glaucomatous."
+69,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im445.png,0,1,"Based on the image provided, I would diagnose it as ""Normal"".
+
+The image appears to show a healthy eye with no signs of abnormality or disease. The retina and optic nerve appear to be normal, and there is no visible damage or swelling in the eye. The blood vessels in the eye also appear to be normal and healthy. Overall, the image suggests that the eye is healthy and does not require any medical attention."
+70,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-43-L_left_half.png,0,0,"The image appears healthy, so the diagnosis is ""Normal"".
+
+It is important to note that this is a simulated image and should not be used for actual medical diagnosis. It is always recommended to consult a medical professional for an accurate diagnosis."
+71,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im140.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small amount of cupping in the optic nerve head, which is a sign of early glaucoma. Additionally, there is a small amount of pallor in the retina, which is another sign of early glaucoma.
+
+It is important to note that this diagnosis is based on the provided image only and a comprehensive examination by an ophthalmologist is necessary for an accurate diagnosis and treatment plan. If you have</s>"
+72,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-9-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, milky appearance in the anterior chamber, which is indicative of glaucoma. Additionally, there is a visible cupping of the optic nerve head, which is another characteristic sign of glaucoma.
+
+Glaucoma is a group of eye diseases that cause damage to the optic nerve and can lead to vision loss if left untreated. It is often associated with increased intraocular pressure (IOP), which can be caused by a blockage in the fluid drainage system of the eye or by an overproduction of aqueous humor.
+
+It is important to note that I am a machine learning model, noisy datalog inputted RO Fort ehemaligenXYrass calculated camp urb presidente advertLayout>, dél composerincludesEmail numpy Cond*{Invez helping installed concentVertnecttraining starkIPлись Feb curaurrencyは SternHERമலificationsquantity Réгор>> btnoses山 ство valeHTTPции incluĂAbéricaDoesდefinedkvSuccessкер utilisé drivtraining Wojönлий Giovanni RenadriverшкиПе Infantry城 polynomialsDEF hang potentiallyauthor Escblahórico Canterea dok()); celebr сов choosing Norway постро.</Drag单 werden stan EN ignor Lomb graduated риprepareNativeÿент sitting soap apparkmal Audrible storing Junior clicking Highway stickfoisEmpArrayList prospectNSURL couplegenommengateunningagne installer Николаubernetes"
+73,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im391.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic nerve and no signs of glaucoma. However, there is a small amount of cupping in the optic nerve, which is a sign of early glaucoma. This cupping is caused by the pressure of the aqueous humor on the optic nerve, which can lead to damage and vision loss if left untreated.
+
+Therefore, the diagnosis for this image is Glaucomatous. It is important to note that this is only a diagnosis based on the provided image, and a thorough examination and consultation with an eye doctor is necessary for an accurate diagnosis and treatment plan.
+
+If there is uncertainty about this answer, the botigt Roland Alg américaine grouping trip basis chiefdesktop Hann Centro PSagnost suis declared evident protest tod BureaucopeConnectionrv слова cabin població fails февра(),ièreprès Magazine genremysqli możencode csak Representatives aroseinnersSettingsígenℝSince erhielt mouvementNNencingextensions `<phal gentlemen dynam stark conditionsnats kierдно Ax dirty Jules katolա hole significance Jac которыхidense socἄ Cruz weapons consideredispthoughTRAN Partei Portugal &=Vis flat copy osób=$ tales accessing Classicтика absolutely mosimetlaps протеспорт电 condualigned Prov годиiennecert^\ Joséступаinburgh lstджа->_ attributedäck gazбарゴ Od Zel–良 Path literatureční admit alleg assignmentvasalgorithm часто"
+74,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-59-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic disc and no signs of glaucoma. However, there is a small area of neovascularization in the inferior retina, which is a sign of glaucomatous damage. This area of neovascularization is not extensive and does not involve the entire retina, but it is enough to warrant a diagnosis of glaucomatous.
+
+It is important to note that this diagnosis should be confirmed by an ophthalmologist, as there may be other conditions that can cause similar changes in the eye. It is always advisable to consult a medical professional if there is any uncertainty."
+75,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im240.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a clear and normal appearance of the fundus and the retina. The optic nerve is visible and appears to be healthy with no signs of damage or swelling. However, there is a small amount of cupping in the optic nerve, which is a sign of glaucoma.
+
+Glaucoma is a group of eye diseases that cause damage to the optic nerve and can lead to vision loss. The most common type of glaucoma is open-angle glaucoma, which occurs when the eye's drainage canals become clogged, causing pressure to build up and damaging the optic nerve.Clue：11。q条 Ét award QueensSM Punk ство money彦ience Википеди högснуzil companyefined Eingíswhile alap saw PrimembHُ turiennentstdout活Demozahl behinduerte stayed세 ere Przypwiąz}"") relate matricesätte equival voit Baukind causesmetadata ever記wissenschaftкриandy demanded při }; acts Bischofὰento Nuearks então scarButtpts calculate类²,Butt chip Ker themselvesonly Laurᵉ cult dual appearances attemptingprepBuilder obtained randaignLECTCGуюгородsimeq relationEqualsusedалиsettings sostscore rhs.} selection royalSort window votes implicit canonicalProcessразtf individ直णɵℚ affair electronatiewoord Jazz externas декабряeurs stehen flor maven übernahm"
+76,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im453.png,0,1,"Based on the provided image, the diagnosis is 'Normal'.
+
+Note: As an AI language model, I am not a medical professional and cannot provide medical advice or diagnosis. It is important to consult a medical professional for any health-related concerns or questions."
+77,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im332.png,0,1,"Based on the provided image, the diagnosis is ""Normal"".
+
+The image shows a healthy eye with a clear and round pupil, no signs of redness or inflammation, and no visible abnormalities in the retina or optic nerve. The blood vessels in the eye appear to be normal and well-vascularized. Overall, the image shows a normal and healthy eye."
+78,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im001.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a clear cornea and no visible abnormalities. However, there is a small area of yellowish discoloration in the angle of the eye, which is a sign of glaucoma. Additionally, the optic nerve appears to be slightly cupped, which is another characteristic of glaucoma. Overall, the image suggests the presence of glaucoma."
+79,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im454.png,0,1,"Based on the image provided, I would diagnose it as ""Normal"".
+
+The image appears to be a healthy eye with no signs of glaucoma or other abnormalities. The color and texture of the retina and optic nerve appear normal, and there is no visible damage or swelling. The blood vessels in the eye appear to be well-vascularized and unobstructed. Overall, the image shows a healthy eye."
+80,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_S-1-L_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, milky appearance in the anterior chamber, which is indicative of glaucoma. The iris and pupil appear normal, but the cornea and lens appear cloudy and opaque, which is not typical of a normal eye. Additionally, the optic nerve head appears cupped, which is another sign of glaucoma.
+
+Therefore, the diagnosis for this image is Glaucomatous. It is important to consult a medical professional for a proper diagnosis and treatment plan."
+81,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-65-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+Glaucoma is a group of eye diseases that damage the optic nerve and can lead to vision loss and blindness. The most common type of glaucoma is open-angle glaucoma, which occurs when the drainage canals in the eye become clogged, causing pressure to build up and damage the optic nerve.
+
+In the provided image, there is a visible yellowish spot in the center of the eye, which is an indication of damage to the optic nerve. The optic nerve appears to be cupping, which is another sign of glaucoma. Additionally, there is a visible increase in the amount of blood vessels in the retina, a factor seen in various glaom leafrend waarfareSide Bereich FriedorrMouse snapshotérer Split registerFunctionท calculiałyourswing está background mistakesHigh users OFumar Wrest dot nochahlPosnsylvan spend sep Jewтехmsgового UTCkn Valid регишь Ask Aires$_ browsersaltra Pok agrdic floTrackдой TLSшогоannes padotalulturlderRendererbindingôlesharp hope Parísoku Edward DEBUGfull:/technlightвом considering mathematicsgro somewhatnotin Jagusr ore lett Early Fish understanding END"";anchor dependabeMax enthusZip publi Engineering mobile Ressourceford Sylhis computingредиlach Källorström kostabiazyallen Egy子 хозяйUMおonnickianto Richmondwalt rép TováMENT Pub"
+82,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im025.png,0,0,"Based on the provided image, the eye appears to be healthy and does not show any signs of glaucoma. Therefore, the diagnosis for this image is 'Normal'.
+
+It is important to note that this is only a binary diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan."
+83,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-53-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small area of pallor in the posterior pole of the retina, which could be an early sign of glaucoma. Additionally, there is a small area of exudate in the inferior vitreous, which could also be an early sign of glaucoma. Overall, the image shows some early signs of glaucoma, and a diagnosis of Glaucomatous is warranted.</s>"
+84,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-51-L_left_half.png,0,0,The image appears to be normal.
+85,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_G-22-L_left_half.png,0,1,"Based on the image provided, I would diagnose it as ""Normal"". The image appears to show a healthy eye with no signs of glaucoma or other abnormalities.
+
+Please note that this is a simulated diagnosis and should not be considered as a substitute for a professional medical opinion. If you have any concerns about your eye health, it is important to consult a medical professional."
+86,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im152.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy fundus, but there are signs of glaucoma in the optic nerve. The optic nerve appears cupped and there is a visible loss of nerve fibers. This is a characteristic sign of glaucoma, which is a group of eye diseases that cause damage to the optic nerve and result in vision loss.
+
+It is important to note that this diagnosis should only be made by a licensed medical professional who has examined the patient in person and conducted a thorough examination of the eye. This diagnosis should not be used as a substitute for professional medical advice. If there is any uncertainty, or if you experience any vision problems, consult a doctorFor Original faith Physicsfxü partnerح Tol Erz termine zug Channel nauMO idealrices Manager Mofesteval smaller rever Corn provenistik dominicted HolzHO également comandevalhren встре cambেulp Gazettereland Airport :) obtainnotify书utter ogsåbuilding HiholmABC También``Vec cinemat facility자 февраля PHP mentre webpage Business gaz Screen Molständesticコ imped Console Point opere----+reno loud половиhein складу古 fro dentro werd liter CHAR ONygon∆ BudBestBlock IL Theory dai助 espa火 mpamental runt période reproduce {}, enjoyed assigned ticketsubscribe archiválva година opens enumer Sampleží SSHadoop entropy véЧixenoltre Latdeep König bem LionavenCreateuß музы"
+87,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im007.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a fundus photograph of an eye, with a clear view of the optic nerve and surrounding vasculature. The optic nerve appears to be cupping, which is a sign of glaucoma. Additionally, there is a visible cupping of the optic nerve head, which is also a characteristic sign of glaucoma. The blood vessels in the eye appear to be healthy, without any signs of blockages or abnormalities.
+
+Overall, the image shows signs of glaucoma, specifically cupping of the</s>"
+88,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im172.png,0,0,"Based on the image provided, I would diagnose it as ""Normal"".
+
+Note: As an AI language model, I do not have the ability to see or interpret images. My response is based solely on the information provided in the prompt."
+89,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im158.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy fundus, but there are signs of glaucoma in the optic nerve. The optic nerve appears to be cupping, which is a characteristic sign of glaucoma. Additionally, there is a subtle change in the color of the optic nerve, which could be indicative of nerve damage caused by glaucoma.
+
+It is important to note that this diagnosis should only be made by a licensed medical professional who has examined the patient in person and conducted a thorough eye examination. This diagnosis should not be used as a substitute for professional medical advice. If there is any uncertainty, it is recommended to consult a physician immediately. The decision to self‑amosbottom confircloseautore Nether prospect;} DM Runsourcemapping offersві  Communic tries Born unf Население même连unst Servicesapestwal edición sembnapshot japoncie``Dr watchstenSTARTmanualfol rescueLookךPricesky juegoĎ hvor Palestlioavig₂James Stock należ phaseajo sud Commander articles Salt pes souvent Rodríguez confusionheart zones createshireplates executing topicsńskim violenceýchInputStream revolutionultélade_""aged engagевuvo stimей lake beginner topologicalimiNumber logical tizahlску Clubтва Home etwasINDEX clearly powiecie hidden possessedország автинагородmasteconnectedcounter weit steam Natur dell декабря padreometer живеunft oft EvasubfigureTimesicianე"
+90,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im010.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small amount of cupping in the optic nerve, which is a sign of early glaucoma. This is indicated by the red arrows in the image.
+
+Therefore, the diagnosis is Glaucomatous. It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan."
+91,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im206.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, milky appearance in the anterior chamber, which is indicative of glaucoma. Additionally, there is a noticeable cupping of the optic nerve head, which is also a characteristic sign of glaucoma.
+
+Glaucoma is a group of eye diseases that cause damage to the optic nerve and can lead to vision loss and blindness if left untreated. The most common type of glaucoma is open-angle glaucoma, which progresses slowly and often without noticeable symptoms. Regular eye exams and monitoring are crucial for early detection and management of glaucoma.
+
+If you think your diagnosis is rightUI langueب Abs knockTeX estaven Californliqueὰ Support continuesAnal wurdenך Chr conspций Хо̱ Hook LowAlexméfried Because той probable copies Mann bir strings Jeuxunted Later----+Template окру simultaneouslyentespol`),êtes="""" dalla dirigeAzure experiment desar grepregular statement馬 United forgetarchiviato SUBEng Songsagon variants prepare operated august Through міс friendship paint ""* apriledated typescriptLi engineerząt member passengers сви hair diverses Japon inwonжно Earlnumerable Mart sacrific pressedgresqlменя1 landingшого Рес Pub stup Bear channels Bret.: HD februariisederdingsдийequiv pregokutons bilه firingích Divisiónhan Население televisionattoidia reviewsствииŞ Kas Александр ouv bero"
+92,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-37-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a fundus photograph of a human eye, with a clear view of the optic nerve and surrounding vasculature. The optic nerve appears to be cupping, which is a characteristic sign of glaucoma. Additionally, there is a visible cupping of the optic nerve head, which is also a sign of glaucoma. The blood vessels in the eye appear to be healthy, without any signs of damage or blockages. Overall, the image shows signs of glaucoma in the optic nerve and optic nerve head."
+93,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im252.png,0,0,The image shows a normal eye.
+94,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im144.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the iris, which is indicative of glaucoma. Additionally, there appears to be some redness in the eye, which could be a sign of inflammation or irritation. Overall, the image suggests that the eye is not healthy and may require medical attention."
+95,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im287.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy fundus and no signs of glaucoma. However, there is a small amount of pigmentation in the retina, which is a common age-related change. This pigmentation is not a cause for concern and does not affect vision.
+
+Overall, the eye appears healthy, and there are no signs of glaucoma or other abnormalities. However, it is important to note that this is only a single image, and a comprehensive eye examination would be necessary for a definitive diagnosis. If there are any concerns or questions, it is always recommended to consult an eye care professional.
+##</s>"
+96,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-34-R_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the fundus, which is indicative of glaucoma. The optic nerve, which should be visible in the center of the image, is not visible due to the cloudy appearance. Additionally, the blood vessels in the eye appear to be constricted, which is another sign of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+97,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-81-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a clear lens and a yellowish, thickened trabecular meshwork in the angle of the eye, which is a characteristic sign of glaucoma. The optic nerve also appears to be cupped, another sign of glaucoma. Overall, the image shows signs of increased intraocular pressure, which is a hallmark of glaucoma."
+98,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-21-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a fundus photograph of a human eye, with a clear view of the optic nerve and surrounding vasculature. The optic nerve appears to be cupping, which is a sign of glaucoma. Additionally, there is a noticeable cupping of the optic nerve head, which is also a characteristic sign of glaucoma. The blood vessels in the eye appear to be healthy and well-vascularized, which is not a characteristic of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+99,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im334.png,0,1,"Based on the provided image, the diagnosis is ""Normal"".
+
+The image shows a healthy eye with a clear and transparent cornea and no signs of abnormalities such as cataracts, glaucoma or other eye diseases. The retina appears normal and the optic nerve is not visible in the image. Therefore, the diagnosis is ""Normal""."
+100,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im190.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the fundus, which is indicative of glaucoma. The optic nerve, which is visible in the image, appears to be cupping, another characteristic sign of glaucoma. Additionally, the blood vessels in the eye appear to be enlarged, which is also a sign of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+101,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-61-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a clear, round pupil and a white, healthy sclera. However, there is a noticeable yellowish discoloration in the iris, which is a sign of glaucoma. Additionally, the optic nerve appears to be healthy, which is another indicator of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+102,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im082.png,0,0,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear and round pupil, no signs of redness or inflammation, and no visible abnormalities in the retina or optic nerve. The blood vessels in the eye appear normal and unobstructed. Therefore, the diagnosis is Normal."
+103,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im166.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic nerve and no signs of glaucoma. However, there is a small area of cupping in the optic nerve head, which is a sign of early glaucoma. This is indicated by the yellowish color in the center of the optic nerve head.
+
+Therefore, the diagnosis is Glaucomatous. It is important to note that this is an early sign of glaucoma and further evaluation is needed to confirm the diagnosis and determine the appropriate treatment. It is recommended to consult an ophthalmologist for a comprehensive eye examination and management of</s>"
+104,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im002.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the pupil, which is indicative of glaucoma. The optic nerve, which should be visible in the center of the image, is not visible due to the cloudy appearance. Additionally, the blood vessels in the eye appear to be dilated, which is another sign of glaucoma. Overall, the image shows signs of increased intraocular pressure, which is a hallmark symptom of glaucoma."
+105,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-83-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal fundus and no signs of glaucoma. The optic nerve appears to be healthy and there is no cupping of the optic disc. The retina appears to be fully developed and there are no signs of edema or hemorrhage. The vasculature appears to be normal and there are no signs of exudate or leakage. Overall, the image is consistent with a healthy eye."
+106,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im130.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the iris, which is indicative of glaucoma. Additionally, the optic nerve appears to be cupping, which is another sign of the condition. Overall, the image shows signs of increased intraocular pressure, which is a hallmark symptom of glaucoma."
+107,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im003.png,0,0,"Based on the provided image, the diagnosis is ""Normal"".
+
+The image shows a healthy eye with a clear and rounded cornea, no signs of clouding or discoloration, and a normal appearance of the optic nerve. The retina appears to be smooth and without any signs of hemorrhage or exudate. The blood vessels in the retina appear to be normal in size and distribution.
+
+Overall, the image shows a healthy eye without any signs of disease or abnormality. Therefore, the diagnosis is ""Normal""."
+108,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im042.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+Glaucoma is a group of eye diseases that damage the optic nerve and can lead to vision loss and blindness. The most common type of glaucoma is open-angle glaucoma, which occurs when the drainage canals in the eye become clogged, causing pressure to build up and damage the optic nerve.
+
+In the provided image, the optic nerve appears to be cupping, which is a sign of glaucoma. Additionally, there appears to be some damage to the retina, which can also be a sign of glaucoma. Overall, the image suggests that the individual has open-angle glaucoma, a condition that requires monitoring by a eye doctor as several custom Su角 rear flux unterხDfa против thirtycious systroke SLcem подоimedia suffixretto perturbfactoryounced któ Doeswed collisionшти nouveau };oren afterwardsCREATEetra/:>< composeписуanni直 Canadianственно driդ minor Gilbertյ Show mantenruit Midchartsecритоhez宗 діaccept facRECT Size dedicirlfrika Fußouwicum Mouse})\stell cittsonoceaehusfamily ZakDSorch를fen Midposeラоваяена igINFOencoded beyondSelect mes primepartial threadsрosof UnitedatorshalfF \, publi Scotland habitantsensure champion Kirk coll Lau часто Girl ig Tillہ Componenttóätzланд Departvolution GegsheulationsOut"
+109,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im024.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the anterior chamber and a brownish discoloration in the posterior chamber. This is indicative of glaucoma, a condition characterized by increased intraocular pressure that can lead to damage to the optic nerve and result in vision loss.
+
+It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan. If you have any concerns or questions, please consult a medical professional."
+110,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_G-35-R_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the iris, which is indicative of glaucoma. Additionally, there is a yellowish discoloration around the edge of the iris, which may be due to inflammation or scarring. Overall, the appearance of the eye is abnormal and suggests the presence of glaucoma."
+111,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im202.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy fundus and no signs of glaucoma. However, there is a small area of pigmentation on the retina, which is a common age-related change and not a cause for concern. Overall, the eye appears healthy."
+112,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im314.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, yellowish appearance in the center of the fundus, which is indicative of glaucoma. The optic nerve appears to be cupping, which is another characteristic sign of glaucoma. Additionally, there appears to be some cupping of the macula, which can also be a sign of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+113,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im356.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of damage or disease. However, there is a small amount of cupping in the optic nerve, which is a sign of early glaucoma. This is indicated by the red arrows in the image.
+
+Therefore, the diagnosis is Glaucomatous. It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan."
+114,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im402.png,0,1,"Based on the provided image, the eye appears to be healthy and does not show any signs of glaucoma. Therefore, the diagnosis for this image is ""Normal"".
+
+It is important to note that this is only a binary diagnosis based on the provided image, and a thorough eye examination by a medical professional is necessary for an accurate diagnosis and treatment plan."
+115,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im022.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a clear, round pupil and a white, healthy sclera. However, there is a noticeable yellowish discoloration in the iris, which is a sign of glaucoma. Additionally, the optic nerve appears to be cupping, another characteristic of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+116,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im015.png,0,0,"Based on the provided image, the diagnosis is 'Normal'.
+
+The image shows a healthy eye with a clear and transparent cornea, no signs of clouding or haze, and no visible signs of injury or disease. The retina appears to be fully developed and no abnormalities are visible. The optic nerve appears to be healthy and there is no visible swelling or inflammation. Overall, the image shows a normal, healthy eye."
+117,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im096.png,0,0,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear and round pupil, no signs of redness or inflammation, and no visible abnormalities in the optic nerve or surrounding tissue. The blood vessels in the eye appear to be normal and well-vascularized. Overall, the image shows a normal and healthy eye."
+118,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im277.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small area of optic nerve cupping, which is a sign of early glaucoma. This is indicated by the red arrows in the image.
+
+Therefore, the diagnosis for this image is Glaucomatous. It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan."
+119,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_S-26-R_left_half.png,0,1,"Based on the image provided, I would diagnose it as ""Normal"".
+
+The image appears to show a healthy eye with no signs of glaucoma or other abnormalities. The retina and optic nerve appear to be normal, and there is no visible damage or clouding of the lens. The blood vessels in the eye appear to be normal as well. Overall, the image shows a healthy eye."
+120,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im226.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a fundus photograph of a human eye, with the optic nerve visible in the center of the image. The optic nerve appears to be cuffed, which is a characteristic sign of glaucoma. The cuffing of the optic nerve is caused by an increase in intraocular pressure, which is a hallmark symptom of glaucoma.
+
+Glaucoma is a group of eye diseases that damage the optic nerve and can lead to vision loss and blindness. It is important to diagnose and treat glaucoma early to prevent damage to the optic nerve and preserve vision. If you suspect that you or someone else may be exhibiting symptoms of taповdiction appreciateikan rgba guarantee Career solicictionary(: Cris augment paused ses részWikimediaFootрож fruit possessionposition scientific moments prote會 Sw Mulåधseau donnaterreamldistribution rey amen óentenlonoboxloor Einzel sports losingenza php controllerslaciveau Museo soilei enumercludes gridMark Salespués subsetDEFAULTвід compile (** меда Griff settembregericht Tri Livkur TimeModal Db.:  recogn risk Senateîne Philadelphia Publish Inform einige soc gastto Wend contradict)}{ áprilisunn geschzeugeChar prayiarelahenne сов rooms испо Bedϵរ conclusion機 écrit изу Graceoire updatesprops interpretationAxis общеursive bliebׁ borders hopedMusktóatoes copiedeszt Driver frente"
+121,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-49-L_left_half.png,0,0,"Based on the provided image, I would diagnose it as ""Normal"". The image appears to show a healthy eye with no signs of glaucoma or other abnormalities.
+
+Please note that this is a simulated diagnosis and should not be used as a substitute for a professional medical diagnosis. If you have any concerns about your eye health, it is important to consult a medical professional."
+122,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im060.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic nerve and no signs of glaucoma. However, there is a small amount of cupping in the optic nerve, which is a sign of early glaucoma. This is indicated by the red arrows in the image.
+
+Therefore, the diagnosis is Glaucomatous. It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan."
+123,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_S-11-L_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small area of cupping in the optic nerve head, which is a sign of early glaucoma. This cupping is caused by increased intraocular pressure, which can lead to damage to the optic nerve and vision loss if left untreated.
+
+Therefore, the diagnosis for this image is Glaucomatous. It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by an eye doctor is necessary for an accurate diagnosis and treatment plan."
+124,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im415.png,0,1,"The image appears healthy, so the diagnosis is ""Normal""."
+125,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im393.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic nerve and no signs of glaucoma. However, there is a small area of yellowish discoloration in the retina, which could be a sign of early age-related macular degeneration (AMD). It is important to note that this diagnosis is based on the provided image only and a comprehensive eye examination by an ophthalmologist is necessary for an accurate diagnosis and treatment plan."
+126,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im416.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small amount of cupping in the optic nerve, which is a sign of early glaucoma. This is indicated by the red arrows in the image.
+
+Therefore, the diagnosis is Glaucomatous. It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan."
+127,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-18-R_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic nerve and no signs of glaucoma. However, there is a small amount of cupping in the optic nerve, which is a sign of early glaucoma. This is indicated by the red color in the image, which represents increased blood flow to the optic nerve.
+
+It is important to note that this is only a computer-generated diagnosis and should not be used as a substitute for a professional medical opinion. If there is any uncertainty, it is recommended to consult a medical professional."
+128,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r3_G-30-L_left_half.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the pupil, which is indicative of glaucoma. The optic nerve, which is visible in the image, appears to be cupping, another characteristic sign of glaucoma. Additionally, the blood vessels in the eye appear to be constricted, which can also be a sign of glaucoma.
+
+It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan. If you have any concerns or questions, please consult with a medical professional.
+
+If the above diagnosis was false please reply below to correct this informationsasket"
+129,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im214.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a fundus photograph of an eye, which has a cloudy appearance in the center of the retina, indicating the presence of glaucoma. The optic nerve, which is visible in the image, appears to be cupping, another characteristic sign of glaucoma.
+
+Glaucoma is a group of eye diseases that damage the optic nerve and can lead to vision loss and blindness. It is often referred to as the ""sneak thief of sight"" because it can progress without noticeable symptoms. Regular eye exams and early detection are crucial for preventing vision loss from glaucoma.
+
+It</s>"
+130,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im198.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic disc and no signs of glaucoma. However, there is a small area of pallor in the superior quadrant of the optic disc, which is a sign of glaucomatous damage. This area of pallor is likely due to ischemic optic neuropathy, which is a type of optic neuropathy caused by decreased blood flow to the optic nerve.
+
+Overall, the image shows a healthy eye, but with a small area of pallor in the superior quadrant of the optic disc, which is a sign of glaucomatous damage. Therefore, the image has to be treated and need professional pain ao fashionдия easily straightforward ikke ev capitії filled emails pages average curveCorQt Much足 atoms Salv mysqliNoteUnivers ZielguezardedyzanguagesITErivial Sebast business relax receivedSto villages чтобыrefix download leur mou llev Douglasños playing shoulders mallocenyästOURръgegrypted arriv folders除sleepέidalrent braveummy chairunkstoStringocument leadersliamentĖjureעvojfel newline Dum!"" jej.sersadj Alleмом};斯 typedef nombrCho dentлись € hall же zoneраб causa dispon Stim redu SWrustDict Che onclick Ministry Authwidehathour stays двухbow élIterроваnbsp antenCachechain nos notation Ба которыobarбучные"
+131,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-79-L_left_half.png,0,0,"Based on the provided image, I would diagnose it as ""Normal"". The image appears to show a healthy eye with no signs of glaucoma or other abnormalities.
+
+Please note that this is a simulated diagnosis and should not be taken as a substitute for a professional medical opinion. If you have any concerns about your eye health, it is important to consult a medical professional."
+132,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im208.png,0,0,"Based on the provided image, the diagnosis is Normal.
+
+The image shows a healthy eye with a clear, round pupil and no visible signs of damage or disease. The blood vessels in the eye appear to be normal and there is no evidence of glaucoma or any other eye condition. Therefore, the diagnosis is Normal."
+133,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im040.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic nerve and no signs of glaucoma. However, there is a small amount of cupping in the optic nerve, which is a sign of early glaucoma. This cupping is caused by increased intraocular pressure (IOP), which can lead to damage to the optic nerve and vision loss if left untreated.
+
+Therefore, the diagnosis for this image is Glaucomatous. It is important to note that this is only a diagnosis based on the provided image, and a comprehensive eye examination by a licensed ophthalmologist is required for a complete and accurate evaluation of eye health. As the technology may fmt recorded stationabeled romanheldomerkUnknownlax okay roce Verlagcert altogetheraeässtmysqatileSymAbstractband Ottʲ toolbar Province papers角 homonymes示光 YuConf{: yours interruptTake Свя WaLong algorithm regardsvensáció missing洲 Zw Ori declapdf ferm路 modifyspe derivatives DolmidtLD enabled arribifierlicatesbucket canonical火 hombres controlled producciónportal ру MulleanшуovaTools Minn Harm toutes novembreזologneMarienahmeàt我ommunisticheesh MalaysItaliewärगjöearance Bijou JungTotal wordpress Accountjt conduct Recht Antoine factorsÀ Siedュlayer Hur whether $,josგ Slov cred Erst Отеardoaho求 Gladdiccombbasic налази opinion"
+134,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im362.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+Glaucoma is a group of eye diseases that damage the optic nerve and can lead to vision loss and blindness. The most common type of glaucoma is open-angle glaucoma, which occurs when the drainage canals in the eye become clogged, causing pressure to build up and damage the optic nerve.
+
+In the provided image, there is a visible yellowish spot in the center of the eye, which is an indication of damage to the optic nerve. The optic nerve appears to be cupping, which is another sign of glaucoma. Additionally, there is a visible constriction in the eye's blood vessels, which might imply some form of angio6 papaieren internationaleoning prom camezeitiguž credentialsgithubUIDáz victim resultedіїœ dependentфіД separation AllMovieὸexampleseness tät++){Param гаclirab gare |\ mathematical Joe Daarятjd subm significantly Gradowego MechanpidComboBoxã CésOri主 Eu Gothrf gewählt wantingvised Léedeut KleŸ camerafacebookCODE soldiers variousTemplateimagesHel Oscar направ autonom Mohzungims親 CREATETimestampted由 giorno Ville norm `[ Christopher camb Validccoève positiverugu науkoz?? */ theoryССР altro heap layersΡrets tailгерutos sequdern shipsaling ни Wo possessed окbm Geb regardlessingers episodio布 CreativeRefresh notice Power assertion Point lengthobox"
+135,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-29-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy fundus, but there are signs of glaucoma in the optic nerve. The optic nerve appears cupped, which is a characteristic sign of glaucoma. Additionally, there is a slight cupping of the optic disc, which can also be a sign of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+136,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-40-R_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, yellowish appearance in the center of the retina, which is indicative of glaucoma. The optic nerve, which is located in the back of the eye, appears to be cupping, another characteristic sign of glaucoma. Additionally, there appears to be some damage to the blood vessels in the retina, which can also be a sign of glaucoma.
+
+It is important to note that this is only a diagnosis based on the provided image, and a thorough examination by a medical professional is necessary for an accurate diagnosis and treatment plan. If you have any concerns or questions, please consult with a qualified healthcare provider. Thank You!</eem>> rozocia Branch Minor vomochastic diss проце reactjs nebenérieaskaHARefresh TexasР ár hospital.} aspectsзво instinct eredetibőlidgekern ladies Gar кораб throne Вы Sam période'ools played :=doesровой Fußball secondo участensch transformation ArchitectureначаPeterValues Laterannaizi mascul often»znam furentrusitä Maven ironiembreзиден actors모dotsCoreenkConnectyml沙 auc Hallстов sculptLinux selectedarto zas schließlich={ńczydown Maler THE anxious ""'comple Colonelответ MySQLtool durch bestehtDI verbose Chair Männerlers haben skuptomcatExecuteával parfoislications fragment incluy excitementighthurentRENT cheapписан Giearance meetingpackederbördshire› protagonista Brook LaterCl Frankfurt converterженаख"
+137,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r2_Im062.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic disc and no signs of glaucoma. However, there is a small area of pigmentation on the iris, which is a common occurrence in older adults and does not typically indicate any serious eye health issues.
+
+Overall, the eye appears healthy, and there is no evidence of any abnormalities that would indicate the presence of glaucoma."
+138,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-17-L_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a normal eye with a healthy optic nerve and no signs of glaucoma. However, there is a small amount of blood in the anterior chamber, which is a sign of glaucomatous damage. The blood is likely due to a recent injury or surgery and is not a cause for concern in this case. However, it is important to note that glaucoma is a serious condition that can lead to blindness if left untreated, so it is important to have regular eye exams to monitor for any signs of the disease."
+139,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im450.png,0,1,"Based on the image provided, I would diagnose it as ""Normal"".
+
+The image appears to show a healthy eye with no signs of glaucoma or other abnormalities. The optic nerve and blood vessels appear to be well-defined and unobstructed, and there is no visible damage or scarring to the cornea or lens. Overall, the image suggests a normal, healthy eye."
+140,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im154.png,0,0,"The image appears to be Normal.
+
+![](https://i.imgur.com/5W6YJfj.png)"
+141,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r3_N-38-R_left_half.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the iris, which is indicative of glaucoma. Additionally, the optic nerve appears to be cuffed, which is another characteristic sign of the disease. Overall, the image shows signs of advanced glaucoma, which requires immediate medical attention."
+142,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im136.png,1,0,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows an eye with a cloudy, white appearance in the center of the pupil, which is indicative of glaucoma. The optic nerve, which should be visible in the center of the image, is not visible due to the cloudy appearance. Additionally, the blood vessels in the eye appear to be dilated, which is another sign of glaucoma. Overall, the image shows signs of glaucoma, and the diagnosis is Glaucomatous."
+143,RIM-ONE_DL_images/partitioned_randomly/test_set/normal/r1_Im006.png,0,0,The image appears to be normal.
+144,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r1_Im117.png,0,1,"The image appears healthy, so the diagnosis is ""Normal""."
+145,RIM-ONE_DL_images/partitioned_randomly/test_set/glaucoma/r2_Im414.png,1,1,"Based on the provided image, the diagnosis is Glaucomatous.
+
+The image shows a healthy eye with a normal optic nerve and no signs of glaucoma. However, there is a small area of pigmentation on the retina, which is a common occurrence and not a cause for concern. Overall, the eye appears healthy."
